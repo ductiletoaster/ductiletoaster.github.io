@@ -1,4 +1,4 @@
-ductiletoaster.github.io
+www.briangebel.com
 ========================
 
-My personal web directory
+My personal resume
