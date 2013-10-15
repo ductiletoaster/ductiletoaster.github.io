@@ -20,27 +20,18 @@ h1 {
 h2 {
 	font-size:20px;
 	position:relative;
-	margin:0 0 6px;
-}
-h2 span {
-	position:absolute;
-	bottom:0;
-	right:0;
-	font-style:italic;
-	font-family:Georgia, Serif;
-	font-size:16px;
-	color:#999;
-	font-weight:400;
+	margin:0 0 6px 0;
 }
 p {
 	margin:0 0 16px;
 }
-p span {
+p.title {
 	font-style:italic;
 	font-family:Georgia, Serif;
 	font-size:16px;
 	color:#999;
 	font-weight:400;
+	margin: -8px 0 6px 0;
 }
 a {
 	color:#999;
@@ -63,9 +54,9 @@ ul.half {
 
 
 #wrapper {
-	width:800px;
+	max-width:800px;
 	margin: 0 auto;
-	padding: 10px 0 60px;
+	padding: 10px 2% 60px 2%;
 }
 #header {
 	position: relative;
@@ -78,6 +69,7 @@ ul.half {
 }
 #objective {
 	max-width: 500px;
+	margin-right: 300px; /* size of image */
 }
 #objective p {
 	font-family:Georgia, Serif;
@@ -113,4 +105,37 @@ ul.half {
 	height: 15px;
 	margin: 0;
 	clear:both;
+}
+
+/* Target display by size range */
+@media (max-width: 720px) {
+	ul.half {
+		width: 97%;
+	}
+	#wrapper {
+		padding: 10px 4% 60px 4%;
+	}
+	#header img {
+		display: none;
+	}
+	#objective {
+		margin-right: auto;
+	}
+}
+@media (max-width: 640px) {
+	#wrapper {
+		padding: 10px 6% 60px 6%;
+	}
+	.category {
+		text-align: left;
+		width: 100%;
+		height: auto;
+		border-right: none;
+		border-bottom: 1px solid #999;
+		padding: 0;
+		margin: 0 0 10px 0;
+	}
+	.information {
+		width: 100%;
+	}
 }
