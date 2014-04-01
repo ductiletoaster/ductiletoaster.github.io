@@ -102,12 +102,6 @@ ul.half {
 .information {
 	width: 75%;
 }
-.clear {
-	float: none;
-	height: 15px;
-	margin: 0;
-	clear:both;
-}
 
 /* Target display by size range */
 @media (max-width: 720px) {
