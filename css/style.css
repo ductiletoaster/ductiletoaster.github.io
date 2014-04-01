@@ -1,6 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 
+/* Global Elements */
 * {
 	margin:0;
 	padding:0;
@@ -25,14 +26,6 @@ h2 {
 p {
 	margin:0 0 16px;
 }
-p.title {
-	font-style:italic;
-	font-family:Georgia, Serif;
-	font-size:16px;
-	color:#999;
-	font-weight:400;
-	margin: -8px 0 6px 0;
-}
 a {
 	color:#999;
 	text-decoration:none;
@@ -46,15 +39,30 @@ ul {
 	width: 97%;
 	margin:0 0 32px 3%;
 }
+
+/* Global Classes */
+.clear {
+	clear: left;
+}
+.title {
+	font-style:italic;
+	font-family: Georgia, Serif;
+	color:#999;
+}
+
+/* Element Specific Inheritance */
+p.title {
+	font-size:16px;
+	font-weight:400;
+	margin: -8px 0 6px 0;
+}
 ul.half {
 	float: left;
 	width: 47%;
 	margin:0 0 32px 3%;
 }
-.clear {
-	clear: left;
-}
 
+/* Everything Else :) */
 #wrapper {
 	max-width:800px;
 	margin: 0 auto;
@@ -103,7 +111,7 @@ ul.half {
 	width: 75%;
 }
 
-/* Target display by size range */
+/* Target display by size */
 @media (max-width: 720px) {
 	ul.half {
 		width: 97%;
