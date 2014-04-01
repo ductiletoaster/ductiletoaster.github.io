@@ -28,11 +28,22 @@ $(document).ready(function() {
 	// Site constants
 	var HOST = window.location.hostname;
 
+	// Hide fade-in class and show on window load
+	$('fade-in').hide();
+
 	// Preload images on index page
 	var server = new Server();
-	server.preload(
+	var img = server.preload(
 		'//' + HOST + '/assets/images/profile.png',
 		'//' + HOST + '/assets/images/profile-wide.jpg'
 	);
 
+});
+
+/**
+ * Execute after window is done loading
+ */
+$(window).load(function() {
+	// Hide fade-in class and show on window load
+	$('fade-in').fadeIn();
 });
