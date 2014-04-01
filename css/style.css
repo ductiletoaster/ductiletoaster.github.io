@@ -51,7 +51,9 @@ ul.half {
 	width: 47%;
 	margin:0 0 32px 3%;
 }
-
+.clear {
+	clear: left;
+}
 
 #wrapper {
 	max-width:800px;
