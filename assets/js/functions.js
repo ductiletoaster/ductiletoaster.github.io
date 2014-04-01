@@ -32,7 +32,7 @@ $(document).ready(function() {
 	var server = new Server();
 	server.preload(
 		'//' + HOST + '/assets/images/profile.png',
-		'//' + HOST + '/assets/images/profile-wide.png'
+		'//' + HOST + '/assets/images/profile-wide.jpg'
 	);
 
 });
