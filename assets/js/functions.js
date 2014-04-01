@@ -45,12 +45,12 @@ $(document).ready(function() {
  */
 $(window).load(function() {
 	
-	// Wait one second after load to complete
+	// Wait 1/2 second after load to complete
 	setTimeout(function(){
-		
+
 		// Hide fade-in class and show on window load
 		$('.fade-in').fadeIn();
 
-	}, 1000);
+	}, 500);
 
 });
