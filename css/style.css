@@ -126,8 +126,10 @@ ul.half {
 	#picture {
 		position: static;
 		margin: 0 auto;
-		background-image: url(../images/profile_wide.jpg);
+		background-image: url(../images/profile-wide.jpg);
 		width: 100%;
+		border: 7px solid #fff;
+		box-shadow: 1px 1px 5px #aaa;
 	}
 	#objective {
 		margin-right: auto;
