@@ -44,6 +44,13 @@ $(document).ready(function() {
  * Execute after window is done loading
  */
 $(window).load(function() {
-	// Hide fade-in class and show on window load
-	$('.fade-in').fadeIn();
+	
+	// Wait one second after load to complete
+	setTimeout(function(){
+		
+		// Hide fade-in class and show on window load
+		$('.fade-in').fadeIn();
+
+	}, 1000);
+
 });
