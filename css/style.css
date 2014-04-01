@@ -72,11 +72,6 @@ ul.half {
 	position: relative;
 	padding: 30px 0 30px 0;
 }
-#header img {
-	position: absolute;
-	top: 0px;
-	right: 0px;
-}
 #objective {
 	max-width: 500px;
 	margin-right: 300px; /* size of image */
@@ -85,6 +80,15 @@ ul.half {
 	font-family:Georgia, Serif;
 	font-style:italic;
 	color:#666;
+}
+#picture {
+	width: 293px;
+	height: 303px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	background: url(../images/profile.png) top center no-repeat;
+}
 }
 .row {
 	float: left;
@@ -119,8 +123,11 @@ ul.half {
 	#wrapper {
 		padding: 10px 4% 60px 4%;
 	}
-	#header img {
-		display: none;
+	#picture {
+		position: static;
+		margin: 0 auto;
+		background-image: url(../images/profile_wide.jpg);
+		width: 100%;
 	}
 	#objective {
 		margin-right: auto;
