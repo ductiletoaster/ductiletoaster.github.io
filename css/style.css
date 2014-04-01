@@ -43,11 +43,11 @@ a:hover {
 	color:#000;
 }
 ul {
-	float: left;
 	width: 97%;
 	margin:0 0 32px 3%;
 }
 ul.half {
+	float: left;
 	width: 47%;
 	margin:0 0 32px 3%;
 }
