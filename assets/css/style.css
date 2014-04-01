@@ -127,7 +127,7 @@ ul.half {
 		position: static;
 		margin: 0 auto;
 		background-image: url(../images/profile-wide.jpg);
-		width: 100%;
+		width: auto;
 		border: 7px solid #fff;
 		box-shadow: 1px 1px 5px #aaa;
 	}
