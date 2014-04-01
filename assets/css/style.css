@@ -89,10 +89,7 @@ ul.half {
 	right: 0px;
 	background: url(../images/profile.png) top center no-repeat;
 }
-}
 .row {
-	float: left;
-	width: 100%;
 	margin: 10px 0 0 0;
 }
 .column {
