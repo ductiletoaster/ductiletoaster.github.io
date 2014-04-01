@@ -29,7 +29,7 @@ $(document).ready(function() {
 	var HOST = window.location.hostname;
 
 	// Hide fade-in class and show on window load
-	$('fade-in').hide();
+	$('.fade-in').hide();
 
 	// Preload images on index page
 	var server = new Server();
@@ -45,5 +45,5 @@ $(document).ready(function() {
  */
 $(window).load(function() {
 	// Hide fade-in class and show on window load
-	$('fade-in').fadeIn();
+	$('.fade-in').fadeIn();
 });
