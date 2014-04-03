@@ -156,6 +156,9 @@ ul.half {
 
 /* Target for print media */
 @media print {
+	@page {
+		margin: 0.5in;
+	}
 	#picture {
 		display: none !important;
 	}
