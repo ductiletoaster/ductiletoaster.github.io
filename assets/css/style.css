@@ -157,6 +157,6 @@ ul.half {
 /* Target for print media */
 @media print {
 	#picture {
-		display: none;
+		display: none !important;
 	}
 }
