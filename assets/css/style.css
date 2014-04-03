@@ -114,7 +114,7 @@ ul.half {
 	min-height: 120px;
 }
 
-/* Target display by size */
+/* Target window size of 720px and below */
 @media (max-width: 720px) {
 	ul.half {
 		width: 97%;
@@ -134,6 +134,8 @@ ul.half {
 		margin-right: auto;
 	}
 }
+
+/* Target window size of 640px and below */
 @media (max-width: 640px) {
 	#wrapper {
 		padding: 10px 6% 60px 6%;
@@ -150,4 +152,9 @@ ul.half {
 	.information {
 		width: 100%;
 	}
+}
+
+/* Target for print media */
+@media print {
+
 }
