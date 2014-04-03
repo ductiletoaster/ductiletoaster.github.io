@@ -111,6 +111,7 @@ ul.half {
 }
 .information {
 	width: 75%;
+	min-height: 120px;
 }
 
 /* Target display by size */
