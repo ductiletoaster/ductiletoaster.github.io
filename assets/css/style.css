@@ -83,12 +83,14 @@ ul.half {
 	color:#666;
 }
 #picture {
-	width: 293px;
-	height: 303px;
+	width: 250px;
+	height: 250px;
 	position: absolute;
 	top: 0px;
 	right: 0px;
-	background: url(../images/profile.png) top center no-repeat;
+	background: url(../images/profile.jpg) top center no-repeat;
+	border: 7px solid #fff;
+	box-shadow: 1px 1px 5px #aaa;
 }
 .row {
 	margin: 10px 0 0 0;
@@ -127,8 +129,6 @@ ul.half {
 		margin: 0 auto;
 		background-image: url(../images/profile-wide.jpg);
 		width: auto;
-		border: 7px solid #fff;
-		box-shadow: 1px 1px 5px #aaa;
 	}
 	#objective {
 		margin-right: auto;
