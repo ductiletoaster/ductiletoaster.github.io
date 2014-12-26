@@ -123,6 +123,11 @@ ul.half {
 		-webkit-transform: rotate(-5deg); /* Chrome, Safari, Opera */
 		-moz-transform: rotate(-5deg); /* Firefox */
 		transform: rotate(-5deg);
+
+		-ms-backface-visibility: hidden; /* IE 10 */
+		-webkit-backface-visibility: hidden; /* Chrome, Safari, Opera */
+		-moz-backface-visibility: hidden; /* Firefox */
+		backface-visibility: hidden;
 	}
 }
 /* Target window size of 720px and below */
