@@ -86,7 +86,7 @@ ul.half {
 	width: 250px;
 	height: 250px;
 	position: absolute;
-	top: 0px;
+	top: 8px;
 	right: 0px;
 	background: url(../images/profile.jpg) top center no-repeat;
 	border: 7px solid #fff;
@@ -116,6 +116,15 @@ ul.half {
 	min-height: 120px;
 }
 
+/* Target window size of 720px and above */
+@media (min-width: 720px) {
+	#picture {
+		-ms-transform: rotate(-5deg); /* IE 9 */
+		-webkit-transform: rotate(-5deg); /* Chrome, Safari, Opera */
+		-moz-transform: rotate(-5deg); /* Firefox */
+		transform: rotate(-5deg);
+	}
+}
 /* Target window size of 720px and below */
 @media (max-width: 720px) {
 	ul.half {
