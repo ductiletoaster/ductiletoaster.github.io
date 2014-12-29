@@ -44,43 +44,43 @@ body {
 #content {
 	position: relative;
 }
-#content_inner {
+#content {
 	margin-top: 20px;
 	margin-bottom: 40px;
 	border-top: 1px solid #eee;
 }
-#content_inner h1 {
+#content h1 {
 	font-size: 44px;
 	font-weight: normal;
 	color: #333;
 	margin: 20px 0px 0px 0px;
 }
-#content_inner h2 {
+#content h2 {
 	font-size: 20px;
 	font-weight: normal;
 	color: #333;
 	margin: 0px 0px 20px 0px;
 }
-#content_inner a {
+#content a {
 	color: #0679ca;
 	text-decoration: none;
 }
-#content_inner a:hover {
+#content a:hover {
 	color: #088deb;
 	text-decoration: underline;
 }
-.divider {
+#content .divider {
 	width: 100%;
 	height: 1px;
 	background-color: #eee;
 	float: left;
 	margin: 0px 0px 20px 0px;
 }
-.lost_box {
+#content .lost_box {
 	width: 100%;
 	height: 400px;
 }
-.lost_box h4 {
+#content .lost_box h4 {
 	font-size: 300px;
 	margin: 0;
 	text-align: center;
@@ -104,23 +104,19 @@ body {
 <body>
 <div id="wrapper">
 	<div id="header">
-		<div id="header_inner">
-			<a href="http://www.briangebel.com/">
-				<h1>BG</h1>
-			</a>
-		</div>
+		<a href="http://www.briangebel.com/">
+			<h1>BG</h1>
+		</a>
 	</div>
 	<div id="content">
-		<div id="content_inner">
-			<h1><b>Uh oh!</b> You seem to have lost your way</h1>
-			<h2>Click <a href="http://www.briangebel.com/">here</a> to go back to my home page or feel free to contact me via <a href="mailto:me@briangebel.com">me@briangebel.com</a></h2>
-			<div class="divider"></div>
-			<div class="lost_box">
-				<h4>404</h4>
-			</div>
-			<h3>404 Page Not Found</h3>
-			<p>The page you requested was not found.</p>
+		<h1><b>Uh oh!</b> You seem to have lost your way</h1>
+		<h2>Click <a href="http://www.briangebel.com/">here</a> to go back to my home page or feel free to contact me via <a href="mailto:me@briangebel.com">me@briangebel.com</a></h2>
+		<div class="divider"></div>
+		<div class="lost_box">
+			<h4>404</h4>
 		</div>
+		<h3>404 Page Not Found</h3>
+		<p>The page you requested was not found.</p>
 	</div>
 </div>
 </body>
