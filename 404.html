@@ -14,15 +14,65 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
 	overflow: hidden;
 }
-.header {
+#header {
 	width: 900px;
 	height: auto;
 	margin: 0 auto;
 }
-.header_inner {
+#header h1 {
+	font-size: 42px;
+	font-weight: 700;
+	letter-spacing: -2px;
+	border-bottom: 1px solid #999;
+	margin: 0 0 16px;
+	padding: 0 0 16px;
+}
+#header_inner {
 	width: 900px;
 	float: left;
 	margin-top: 20px;
+}
+#content {
+	width: 900px;
+	height: auto;
+	margin: 0 auto;
+}
+#content_inner {
+	float: left;
+	width: 900px;
+	height: auto;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	border-top: 1px solid #eee;
+}
+#content_inner h1 {
+	font-size: 44px;
+	font-weight: normal;
+	color: #333;
+	margin: 20px 0px 0px 0px;
+}
+#content_inner h2 {
+	font-size: 20px;
+	font-weight: normal;
+	color: #333;
+	margin: 0px 0px 20px 0px;
+}
+#content_inner a {
+	/*  color: #0094C2; */
+	color: #0679ca;
+	text-decoration: none;
+}
+#content_inner a:hover {
+	/* color: #0080A6; */
+	color: #088deb;
+	text-decoration: underline;
+}
+.divider {
+	width: 100%;
+	height: 1px;
+	background-color: #eee;
+	float: left;
+	margin: 0px 0px 20px 0px;
 }
 .lost_box {
 	width: 100%;
@@ -33,63 +83,23 @@ body {
 	margin: 0;
 	text-align: center;
 }
-.ip_cont {
-	width: 900px;
-	height: auto;
-	margin: 0 auto;
-}
-.ip_inner {
-	float: left;
-	width: 900px;
-	height: auto;
-	margin-top: 20px;
-	margin-bottom: 40px;
-	border-top: 1px solid #eee;
-}
-.ip_inner h1 {
-	font-size: 44px;
-	font-weight: normal;
-	color: #333;
-	margin: 20px 0px 0px 0px;
-}
-.ip_inner h2 {
-	font-size: 20px;
-	font-weight: normal;
-	color: #333;
-	margin: 0px 0px 20px 0px;
-}
-.ip_inner a {
-	/*  color: #0094C2; */
-	color: #0679ca;
-	text-decoration: none;
-}
-.ip_inner a:hover {
-	/* color: #0080A6; */
-	color: #088deb;
-	text-decoration: underline;
-}
-.ip_divider {
-	width: 100%;
-	height: 1px;
-	background-color: #eee;
-	float: left;
-	margin: 0px 0px 20px 0px;
-}
 </style>
 </head>
 <body>
-	<div class="header">
-		<div class="header_inner"> 
-			<a href="http://www.briangebel.com/">
-				Brian Gebel
-			</a>
+	<div id="header">
+		<div id="header_inner">
+			<h1>
+				<a href="http://www.briangebel.com/">
+					Brian Gebel
+				</a>
+			</h1>
 		</div>
 	</div>
-	<div class="ip_cont">
-		<div class="ip_inner">
+	<div id="content">
+		<div id="content_inner">
 			<h1><b>Uh oh!</b> You seem to have lost your way</h1>
 			<h2>Click <a href="http://www.briangebel.com/">here</a> to go back to my home page or feel free to contact me @ <a href="mailto:me@briangebel.com">me@briangebel.com</a></h2>
-			<div class="ip_divider"></div>
+			<div class="divider"></div>
 			<div class="lost_box">
 				<h4>404</h4>
 			</div>
