@@ -27,7 +27,12 @@ body {
 	margin: 0 0 16px;
 	padding: 0 0 16px;
 }
-#header h1 a {
+#header h1 a,
+#header h1 a:active,
+#header h1 a:hover,
+#header h1 a:link,
+#header h1 a:visited {
+	color: #333;
 	text-decoration: underline;
 }
 #header_inner {
@@ -61,12 +66,10 @@ body {
 	margin: 0px 0px 20px 0px;
 }
 #content_inner a {
-	/*  color: #0094C2; */
 	color: #0679ca;
 	text-decoration: none;
 }
 #content_inner a:hover {
-	/* color: #0080A6; */
 	color: #088deb;
 	text-decoration: underline;
 }
