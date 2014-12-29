@@ -14,10 +14,13 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
 	overflow: hidden;
 }
-#header {
-	width: 900px;
-	height: auto;
+#wrapper {
+	max-width:800px;
 	margin: 0 auto;
+	padding: 10px 2% 60px 2%;
+}
+#header {
+	position: relative;
 }
 #header a,
 #header a:active,
@@ -41,9 +44,7 @@ body {
 	margin-top: 20px;
 }
 #content {
-	width: 900px;
-	height: auto;
-	margin: 0 auto;
+	position: relative;
 }
 #content_inner {
 	float: left;
@@ -89,9 +90,24 @@ body {
 	margin: 0;
 	text-align: center;
 }
+
+/* Target window size of 720px and below */
+@media (max-width: 720px) {
+	#wrapper {
+		padding: 10px 4% 60px 4%;
+	}
+}
+
+/* Target window size of 640px and below */
+@media (max-width: 640px) {
+	#wrapper {
+		padding: 10px 6% 60px 6%;
+	}
+}
 </style>
 </head>
 <body>
+<div id="wrapper">
 	<div id="header">
 		<div id="header_inner">
 			<a href="http://www.briangebel.com/">
@@ -111,5 +127,6 @@ body {
 			<p>The page you requested was not found.</p>
 		</div>
 	</div>
+</div>
 </body>
 </html>
