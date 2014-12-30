@@ -116,8 +116,8 @@ ul.half {
 	min-height: 120px;
 }
 
-/* Target window size of 720px and above */
-@media (min-width: 720px) {
+/* Target window size of 721px and above */
+@media (min-width: 721px) {
 	#picture {
 		-ms-transform: rotate(-5deg); /* IE 9 */
 		-webkit-transform: rotate(-5deg); /* Chrome, Safari, Opera */
