@@ -113,6 +113,7 @@ ul.half {
 	width: 321px;
 	height: 216px;
 	background: url(../images/paperstack.png) top center no-repeat;
+	margin: 0 auto;
 }
 .picture {
 	width: 250px;
@@ -138,6 +139,8 @@ ul.half {
 #intro h2 {
 	font-size: 36px;
 	margin: 0;
+	position: relative;
+	top: 15px;
 }
 #objective {
 	max-width: 500px;
