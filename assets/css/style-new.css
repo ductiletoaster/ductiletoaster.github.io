@@ -68,9 +68,9 @@ ul {
 }
 .vertical-break,
 .vertical-break-200 {
-	background-color: #f1f1f1;
-	width: 1px;
-	border: 1px dashed #e8e4e3;
+	/* background-color: #f1f1f1; */
+	width: 0;
+	border-left: 1px dashed #e8e4e3;
 	margin: 0px auto;
 }
 .vertical-break-200 {
@@ -100,6 +100,18 @@ ul.half {
 	margin:0 0 32px 3%;
 }
 
+/* Content Images [?] */
+.picture {
+	width: 250px;
+	height: 250px;
+	position: absolute;
+	top: 8px;
+	right: 0px;
+	background: url(../images/profile.jpg) top center no-repeat;
+	border: 7px solid #fff;
+	box-shadow: 1px 1px 5px #aaa;
+}
+
 /* Everything Else :) */
 #wrapper {
 	max-width:800px;
@@ -113,6 +125,9 @@ ul.half {
 #me {
 	text-align: center;
 }
+#intro h2 {
+	font-size: 36px;
+}
 #objective {
 	max-width: 500px;
 	margin-right: 300px; /* size of image */
@@ -122,16 +137,7 @@ ul.half {
 	font-style:italic;
 	color:#666;
 }
-#picture {
-	width: 250px;
-	height: 250px;
-	position: absolute;
-	top: 8px;
-	right: 0px;
-	background: url(../images/profile.jpg) top center no-repeat;
-	border: 7px solid #fff;
-	box-shadow: 1px 1px 5px #aaa;
-}
+
 #resume {
 	line-height:24px;
 }
