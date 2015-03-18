@@ -113,7 +113,7 @@ ul.half {
 	width: 321px;
 	height: 216px;
 	background: url(../images/paperstack.png) top center no-repeat;
-	margin: 0 auto;
+	margin: 40px auto -25px auto;
 }
 .picture {
 	width: 250px;
