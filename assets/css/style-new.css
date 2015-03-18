@@ -32,6 +32,11 @@ h3 {
 	position:relative;
 	margin:0 0 6px 0;
 }
+h4 {
+	font-size:20px;
+	position:relative;
+	margin:0 0 6px 0;
+}
 p {
 	margin:0 0 16px;
 }
@@ -103,6 +108,9 @@ ul.half {
 #header {
 	position: relative;
 	padding: 30px 0 30px 0;
+}
+#contact {
+	text-align: center;
 }
 #objective {
 	max-width: 500px;
