@@ -109,12 +109,14 @@ ul.half {
 }
 
 /* Content Images [?] */
+.paperstack {
+	width: 321px;
+	height: 216px;
+	background: url(../images/paperstack.jpg) top center no-repeat;
+}
 .picture {
 	width: 250px;
 	height: 250px;
-	position: absolute;
-	top: 8px;
-	right: 0px;
 	background: url(../images/profile.jpg) top center no-repeat;
 	border: 7px solid #fff;
 	box-shadow: 1px 1px 5px #aaa;
