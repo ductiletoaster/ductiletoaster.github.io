@@ -57,6 +57,14 @@ ul {
 }
 
 /* Global Classes */
+.circle-75 {
+	width: 75px;
+	height: 75px;
+	margin: 0 auto;
+	border-radius: 75px;
+	border: 1px dashed #e8e4e3;
+	text-align: center;
+}
 .horizontal-break,  
 .horizontal-break-150 {
 	background-color: #00abec;
@@ -127,6 +135,7 @@ ul.half {
 }
 #intro h2 {
 	font-size: 36px;
+	margin: 0;
 }
 #objective {
 	max-width: 500px;
