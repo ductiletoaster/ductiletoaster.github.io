@@ -50,6 +50,29 @@ ul {
 }
 
 /* Global Classes */
+.break-full, 
+.break-half, 
+.break-300, 
+.break-150 {
+	background-color: #00abec;
+	height: 2px;
+	margin: 0px auto;
+}
+.break-full {
+	width: 100%;
+}
+.break-half {
+	width: 50%;
+} 
+.break-300 {
+	width: 300px;
+}
+.break-150 {
+	width: 150px;
+}
+.center {
+	margin: 0px auto;
+}
 .clear {
 	clear: left;
 }
