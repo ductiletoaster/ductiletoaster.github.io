@@ -9,14 +9,13 @@
 body {
 	font-size: 16px;
 	font-family: 'Source Sans Pro', sans-serif;   
-/*	line-height:24px; */
 	background-color: #fdfdfd;
 }
 h1 {
 	font-family: 'Economica', sans-serif;
 	font-size: 95px;
 	font-weight: 700;
-	margin: 0 0 6px 0;
+	margin: 0 0 10px 0;
 	padding: 0;
 	text-transform: uppercase;
 }
@@ -24,7 +23,7 @@ h2 {
 	font-family: 'Economica', sans-serif;
 	font-size: 24px;
 	font-weight: 700;
-	margin: 0 0 12px 0;
+	margin: 0 0 20px 0;
 	padding: 0;
 	text-transform: uppercase;
 }
@@ -33,7 +32,7 @@ h3 {
 	font-size: 18px;
 	font-weight: 400;
 	position:relative;
-	margin: 12px 0 0 0;
+	margin: 20px 0 0 0;
 }
 h4 {
 	font-size:20px;
@@ -58,25 +57,24 @@ ul {
 }
 
 /* Global Classes */
-.break-full, 
-.break-half, 
-.break-300, 
-.break-150 {
+.horizontal-break,  
+.horizontal-break-150 {
 	background-color: #00abec;
 	height: 2px;
 	margin: 0px auto;
 }
-.break-full {
-	width: 100%;
-}
-.break-half {
-	width: 50%;
-} 
-.break-300 {
-	width: 300px;
-}
-.break-150 {
+.horizontal-break-150 {
 	width: 150px;
+}
+.vertical-break,
+.vertical-break-200, {
+	background-color: #f1f1f1;
+	width: 1px;
+	border: 1px dashed #e8e4e3;
+	margin: 0px auto;
+}
+.vertical-break-200 {
+	height: 200px;
 }
 .center {
 	margin: 0px auto;
@@ -112,7 +110,7 @@ ul.half {
 	position: relative;
 	padding: 30px 0 30px 0;
 }
-#contact {
+#me {
 	text-align: center;
 }
 #objective {
@@ -134,6 +132,10 @@ ul.half {
 	border: 7px solid #fff;
 	box-shadow: 1px 1px 5px #aaa;
 }
+#resume {
+	line-height:24px;
+}
+
 .row {
 	margin: 10px 0 0 0;
 }
