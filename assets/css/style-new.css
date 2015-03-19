@@ -119,19 +119,12 @@ ul.half {
 	background-color: #ffffff;
 	border: 2px solid #D7DBDD;
 
-	/* Rotate page 30 degrees */
-	-webkit-transform: rotate(30deg);
-	-moz-transform: rotate(30deg);
-	-ms-transform: rotate(30deg);
-	-o-transform: rotate(30deg);
-	transform: rotate(30deg);
-
-	/* Skew page -30 degrees */
-	-webkit-transform: skewX(-30deg);
-	-moz-transform: skewX(-30deg);
-	-ms-transform: skewX(-30deg);
-	-o-transform: skewX(-30deg);
-	transform: skewX(-30deg);
+	/* Rotate page 30 degrees and Skew page -30 along the x axis */
+	-webkit-transform: rotate(30deg) skewX(-30deg);
+	-moz-transform: rotate(30deg) skewX(-30deg);
+	-ms-transform: rotate(30deg) skewX(-30deg);
+	-o-transform: rotate(30deg) skewX(-30deg);
+	transform: rotate(30deg) skewX(-30deg);
 
 }
 .paperstack .page:last-child {
