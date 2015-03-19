@@ -11,6 +11,11 @@ body {
 	font-family: 'Source Sans Pro', sans-serif;   
 	background-color: #fdfdfd;
 }
+pre {
+  display: block;
+  font-family: monospace;
+  white-space: pre;
+}
 h1 {
 	font-family: 'Economica', sans-serif;
 	font-size: 95px;
