@@ -116,9 +116,7 @@ ul.half {
 	margin: 40px auto -25px auto;
 	position: relative;
 }
-.paperstack .page,
-.paperstack .page::before,
-.paperstack .page::after {
+.paperstack .page {
 	width: 150px; /* 8.5 x 11 = width 77.3% of height */
 	height: 200px;
 	position: absolute;
