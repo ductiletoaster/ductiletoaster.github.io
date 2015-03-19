@@ -116,7 +116,9 @@ ul.half {
 	margin: 40px auto -25px auto;
 	position: relative;
 }
-.paperstack .page {
+.paperstack .page,
+.paperstack .page::before,
+.paperstack .page::after {
 	width: 150px; /* 8.5 x 11 = width 77.3% of height */
 	height: 200px;
 	position: absolute;
@@ -131,6 +133,7 @@ ul.half {
 	transform: rotate(30deg) skewX(-30deg);
 
 }
+
 .paperstack .page:last-child {
 	box-shadow: 1px 1px 5px #D7DBDD;
 }
