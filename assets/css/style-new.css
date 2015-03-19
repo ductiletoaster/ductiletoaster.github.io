@@ -112,8 +112,30 @@ ul.half {
 .paperstack {
 	width: 321px;
 	height: 216px;
-	background: url(../images/paperstack.png) top center no-repeat;
+	/* background: url(../images/paperstack.png) top center no-repeat; */
 	margin: 40px auto -25px auto;
+}
+.paperstack .page {
+	background-color: #ffffff;
+	border: 2px solid #D7DBDD;
+
+	/* Rotate page 30 degrees */
+	-webkit-transform: rotate(30deg);
+	-moz-transform: rotate(30deg);
+	-ms-transform: rotate(30deg);
+	-o-transform: rotate(30deg);
+	transform: rotate(30deg);
+
+	/* Skew page -30 degrees */
+	-webkit-transform: skewX(-30deg);
+	-moz-transform: skewX(-30deg);
+	-ms-transform: skewX(-30deg);
+	-o-transform: skewX(-30deg);
+	transform: skewX(-30deg);
+
+}
+.paperstack .page:last-child {
+	box-shadow: 1px 1px 5px #D7DBDD;
 }
 .picture {
 	width: 250px;
