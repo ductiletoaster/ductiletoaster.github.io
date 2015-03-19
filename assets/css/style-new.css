@@ -123,12 +123,13 @@ ul.half {
 	background-color: #ffffff;
 	border: 2px solid #D7DBDD;
 
-	/* Rotate page 30 degrees and Skew page -30 along the x axis */
+	/* Rotate page 30 degrees and Skew page -30 along the x axis 
 	-webkit-transform: rotate(30deg) skewX(-30deg);
 	-moz-transform: rotate(30deg) skewX(-30deg);
 	-ms-transform: rotate(30deg) skewX(-30deg);
 	-o-transform: rotate(30deg) skewX(-30deg);
 	transform: rotate(30deg) skewX(-30deg);
+	*/
 
 }
 
