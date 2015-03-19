@@ -123,17 +123,28 @@ ul.half {
 	background-color: #ffffff;
 	border: 2px solid #D7DBDD;
 
-	/* Rotate page 30 degrees and Skew page -30 along the x axis 
+	/* Rotate page 30 degrees and Skew page -30 along the x axis */
 	-webkit-transform: rotate(30deg) skewX(-30deg);
 	-moz-transform: rotate(30deg) skewX(-30deg);
 	-ms-transform: rotate(30deg) skewX(-30deg);
 	-o-transform: rotate(30deg) skewX(-30deg);
 	transform: rotate(30deg) skewX(-30deg);
-	*/
 
 }
-
-.paperstack .page:last-child {
+.paperstack .page:nth-child(1) {
+	top: 0px;
+}
+.paperstack .page:nth-child(2) {
+	top: 1px;
+}
+.paperstack .page:nth-child(3) {
+	top: 2px;
+}
+.paperstack .page:nth-child(4) {
+	top: 3px;
+}
+.paperstack .page:nth-child(5) {
+	top: 4px;
 	box-shadow: 1px 1px 5px #D7DBDD;
 }
 .picture {
