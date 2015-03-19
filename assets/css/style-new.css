@@ -116,6 +116,9 @@ ul.half {
 	margin: 40px auto -25px auto;
 	position: relative;
 }
+.paperstack .cover {
+	font-size: 3px;
+}
 .paperstack .page {
 	width: 150px; /* 8.5 x 11 = width 77.3% of height */
 	height: 200px;
@@ -150,7 +153,7 @@ ul.half {
 .paperstack .page:nth-child(5) {
 	top: 16px;
 	z-index: 100;
-	box-shadow: 1px 1px 5px #D7DBDD;
+	box-shadow: 16px 12px 1px #D7DBDD;
 }
 .picture {
 	width: 250px;
