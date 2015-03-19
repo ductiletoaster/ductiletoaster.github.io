@@ -12,9 +12,9 @@ body {
 	background-color: #fdfdfd;
 }
 pre {
-  display: block;
-  font-family: monospace;
-  white-space: pre;
+	display: block;
+	font-family: monospace;
+	white-space: pre;
 }
 h1 {
 	font-family: 'Economica', sans-serif;
@@ -123,6 +123,10 @@ ul.half {
 }
 .paperstack .cover {
 	font-size: 3px;
+}
+.paperstack .cover pre {
+	margin: 8px;
+	overflow: hidden;
 }
 .paperstack .page {
 	width: 150px; /* 8.5 x 11 = width 77.3% of height */
