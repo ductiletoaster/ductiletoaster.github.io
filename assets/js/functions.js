@@ -33,12 +33,13 @@ $(document).ready(function() {
 
 	// Preload images on index page
 	var server = new Server();
+/*
 	var img = server.preload(
 //		'//' + HOST + '/assets/images/profile.jpg',
 //		'//' + HOST + '/assets/images/profile-wide.jpg'
-		'//' + HOST + '/assets/images/paperstack.png'
+//		'//' + HOST + '/assets/images/paperstack.png'
 	);
-
+*/
 });
 
 /**
