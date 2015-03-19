@@ -110,12 +110,16 @@ ul.half {
 
 /* Content Images [?] */
 .paperstack {
-	width: 321px;
-	height: 216px;
+	width: 155px; /* 8.5 x 11 = width 77.3% of height */
+	height: 200px;
 	/* background: url(../images/paperstack.png) top center no-repeat; */
 	margin: 40px auto -25px auto;
+	position: relative;
 }
 .paperstack .page {
+	width: 155px; /* 8.5 x 11 = width 77.3% of height */
+	height: 200px;
+	position: absolute;
 	background-color: #ffffff;
 	border: 2px solid #D7DBDD;
 
