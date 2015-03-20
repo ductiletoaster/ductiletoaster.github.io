@@ -57,8 +57,8 @@ a:hover {
 	color:#000;
 }
 ul {
-	width: 97%;
-	margin: 0 0 32px 3%;
+	width: auto;
+	margin: 0 0 32px 20px;
 }
 
 /* Global Classes */
@@ -106,11 +106,6 @@ p.title {
 	font-size:16px;
 	font-weight:400;
 	margin: -8px 0 6px 0;
-}
-ul.half {
-	float: left;
-	width: 47%;
-	margin:0 0 32px 3%;
 }
 
 /* Content Images [?] */
@@ -262,9 +257,6 @@ ul.half {
 /* http://blog.templatemonster.com/2014/10/24/bootstrap-3-grid-system-guide/ */
 /* Target window size of 720px and below */
 @media (max-width: 720px) {
-	ul.half {
-		width: 97%;
-	}
 	#wrapper {
 		padding: 10px 4% 60px 4%;
 	}
@@ -292,13 +284,8 @@ ul.half {
 	}
 }
 
-/* Target window size of 680px and below */
-@media (max-width: 380px) {
-	ul {
-		width: 100%;
-		margin: 0 0 32px 0;
-		list-style-type: none;
-	}	
+/* Target window size of 480px and below */
+@media (max-width: 480px) {
 	.paperstack {
 		width: 120px; /* 8.5 x 11 = width ~75% of height */
 		height: 160px;
@@ -306,6 +293,18 @@ ul.half {
 	.paperstack .page {
 		width: 120px; /* 8.5 x 11 = width ~75% of height */
 		height: 160px;
+	}
+}
+
+/* Target window size of 320px and below */
+@media (max-width: 320px) {
+	.paperstack {
+		width: 90px; /* 8.5 x 11 = width ~75% of height */
+		height: 120px;
+	}
+	.paperstack .page {
+		width: 90px; /* 8.5 x 11 = width ~75% of height */
+		height: 120px;
 	}
 }
 
