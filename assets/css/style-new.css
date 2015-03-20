@@ -115,7 +115,7 @@ ul.half {
 
 /* Content Images [?] */
 .paperstack {
-	width: 150px; /* 8.5 x 11 = width 77.3% of height */
+	width: 150px; /* 8.5 x 11 = width ~75% of height */
 	height: 200px;
 	/* background: url(../images/paperstack.png) top center no-repeat; */
 	margin: 40px auto -25px auto;
@@ -129,7 +129,7 @@ ul.half {
 	overflow: hidden;
 }
 .paperstack .page {
-	width: 150px; /* 8.5 x 11 = width 77.3% of height */
+	width: 150px; /* 8.5 x 11 = width ~75% of height */
 	height: 200px;
 	position: absolute;
 	background-color: #ffffff;
@@ -163,13 +163,6 @@ ul.half {
 	top: 16px;
 	z-index: 100;
 	box-shadow: 16px 12px 1px #D7DBDD;
-}
-.picture {
-	width: 250px;
-	height: 250px;
-	background: url(../images/profile.jpg) top center no-repeat;
-	border: 7px solid #fff;
-	box-shadow: 1px 1px 5px #aaa;
 }
 
 /* Everything Else :) */
@@ -266,21 +259,7 @@ ul.half {
 	from { opacity: 0; }
 	to   { opacity: 1; }
 }
-
-/* Target window size of 721px and above */
-@media (min-width: 721px) {
-	#picture {
-		-ms-transform: rotate(-5deg); /* IE 9 */
-		-webkit-transform: rotate(-5deg); /* Chrome, Safari, Opera */
-		-moz-transform: rotate(-5deg); /* Firefox */
-		transform: rotate(-5deg);
-
-		-ms-backface-visibility: hidden; /* IE 10 */
-		-webkit-backface-visibility: hidden; /* Chrome, Safari, Opera */
-		-moz-backface-visibility: hidden; /* Firefox */
-		backface-visibility: hidden;
-	}
-}
+/* http://blog.templatemonster.com/2014/10/24/bootstrap-3-grid-system-guide/ */
 /* Target window size of 720px and below */
 @media (max-width: 720px) {
 	ul.half {
@@ -288,12 +267,6 @@ ul.half {
 	}
 	#wrapper {
 		padding: 10px 4% 60px 4%;
-	}
-	#picture {
-		position: static;
-		margin: 0 auto;
-		background-image: url(../images/profile-wide.jpg);
-		width: auto;
 	}
 	#objective {
 		margin-right: auto;
@@ -319,12 +292,22 @@ ul.half {
 	}
 }
 
+/* Target window size of 680px and below */
+@media (max-width: 380px) {
+	.paperstack {
+		width: 120px; /* 8.5 x 11 = width ~75% of height */
+		height: 160px;
+	}
+	.paperstack .page {
+		width: 120px; /* 8.5 x 11 = width ~75% of height */
+		height: 160px;
+	}
+}
+
 /* Target for print media */
 @media print {
 	@page {
 		margin: 0.5in;
 	}
-	#picture {
-		display: none !important;
-	}
+
 }
