@@ -58,7 +58,7 @@ a:hover {
 }
 ul {
 	width: 97%;
-	margin:0 0 32px 3%;
+	margin: 0 0 32px 3%;
 }
 
 /* Global Classes */
@@ -294,6 +294,11 @@ ul.half {
 
 /* Target window size of 680px and below */
 @media (max-width: 380px) {
+	ul {
+		width: 100%;
+		margin: 0 0 32px 0;
+		list-style-type: none;
+	}	
 	.paperstack {
 		width: 120px; /* 8.5 x 11 = width ~75% of height */
 		height: 160px;
