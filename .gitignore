@@ -1,5 +1,7 @@
 # OS or Editor folders
 .DS_Store
 Thumbs.db
+node_modules/*
+*.log
 *.sublime-project
 *.sublime-workspace
