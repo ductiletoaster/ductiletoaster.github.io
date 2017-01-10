@@ -8,6 +8,14 @@ module.exports = {
 		publicPath: '/build/',
 		filename: 'app.js'
 	},
+    module: {
+        rules: [
+            {
+                test: /\.js$/,
+                exclude: [/bower_components/, /node_modules/]
+            }
+        ]
+    },
     devServer: {
         historyApiFallback: true,
         noInfo: true
