@@ -1,14 +1,12 @@
+var path    = require('path');
 var webpack = require('webpack')
-var path    = require("path");
 
 module.exports = {
-    entry: {
-	   app: ["main.js" ]
-	},
+    entry:  './assets/js/main.js',
 	output: {
-		path: path.resolve(__dirname, "build"),
-		publicPath: "/assets/js/",
-		filename: "app.js"
+		path: path.resolve(__dirname, './build'),
+		publicPath: '/build/',
+		filename: 'app.js'
 	},
     devServer: {
         historyApiFallback: true,
