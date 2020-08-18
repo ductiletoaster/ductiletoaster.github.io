@@ -5,46 +5,48 @@ import './App.css';
 function App() {
   return (
     <div id="wrapper">
+        
         <div id="header">
             <div id="me">
                 <h1>Brian Gebel</h1>
                 <h2>Software Engineer</h2>
-                <div class="horizontal-break-150"></div>
-                <h3>Hacking away at the web for over 7 years</h3>
+                <div className="horizontal-break-150"></div>
+                <h3>Hacking away at the web for over 10 years</h3>
             </div>
             <div id="intro">
-                <div class="paperstack fade-in">
-                    <div class="page cover">
+                <div className="paperstack fade-in">
+                    <div className="page cover">
+                        <img src={logo} />
                         <pre></pre>
                     </div>
-                    <div class="page"></div>
-                    <div class="page"></div>
-                    <div class="page"></div>
-                    <div class="page"></div>
+                    <div className="page"></div>
+                    <div className="page"></div>
+                    <div className="page"></div>
+                    <div className="page"></div>
                 </div>
-                <div class="vertical-break-200"></div>
-                <div class="circle-75">
+                <div className="vertical-break-200"></div>
+                <div className="circle-75">
                     <h2>ME</h2>
                 </div>
-                <div class="vertical-break-200"></div>
+                <div className="vertical-break-200"></div>
             </div>
-            <div id="contact" style="display: none;">
+            <div id="contact" style={{display: 'none'}}>
                 <p>
-                    Email: <a class="email" href="mailto:me@briangebel.com">me@briangebel.com</a><br />
-                    GitHub: <a class="profile" href="https://github.com/ductiletoaster" target="_blank">https://github.com/ductiletoaster</a>
+                    Email: <a className="email" href="mailto:me@briangebel.com">me@briangebel.com</a><br />
+                    GitHub: <a className="profile" href="https://github.com/ductiletoaster" target="_blank">https://github.com/ductiletoaster</a>
                 </p>
             </div>
-            <div id="objective" style="display: none;">
+            <div id="objective" style={{display: 'none'}}>
                 <p>My objective is to attain a position that can utilize my skills as an honest, responsible, and hardworking individual to further my experience in software development.</p>
             </div>
         </div>
         <div id="content">
             <div id="resume">
-                <div class="row">
-                    <div class="category column">
+                <div className="row">
+                    <div className="category column">
                         <h4>Qualifications</h4>
                     </div>
-                    <div class="information column">
+                    <div className="information column">
                         <h4>Knowledge Base</h4>
                         <ul>
                             <li>7+ years of experience in all stages of Web and software development life-cycle, from concept and development through quality assurance (QA) and tuning.</li>
@@ -54,12 +56,12 @@ function App() {
                             <li>Proven background in web development with an emphasis on a customer centric pay for performance work ethic.</li>
                             <li>Superior communication, analytical and interpersonal skills.</li>
                         </ul>
-                        <div class="clear"></div>
+                        <div className="clear"></div>
                     </div>
-                    <div class="category column">
+                    <div className="category column">
                         <h4>Skills</h4>
                     </div>
-                    <div class="information column">
+                    <div className="information column">
                         <h4>Software Development Technologies</h4>
                         <ul>
                             <li>Front-end development (HTML5, CSS3, JavaScript + JSON + AJAX).</li>
@@ -76,15 +78,15 @@ function App() {
                             <li>Agile Methods</li>
                         </ul>
                     </div>
-                    <div class="clear"></div>
+                    <div className="clear"></div>
                 </div>
-                <div class="row">
-                    <div class="category column">
+                <div className="row">
+                    <div className="category column">
                         <h4>Experience</h4>
                     </div>
-                    <div class="information column">
+                    <div className="information column">
                         <h4>GoFundMe </h4>
-                        <p class="title">Software Engineer - San Diego, CA - 2015-Present</p>
+                        <p className="title">Software Engineer - San Diego, CA - 2015-Present</p>
                         <p>Currently part of a rapidly growing team of Software Engineers, QA Analysts, and product specialists tasked with growing the GoFundMe platform.</p>
                         <ul>
                             <li>Responsible for building and maintaining numerous customer service and business development tools that integrate heavily into our user facing product.</li>
@@ -93,7 +95,7 @@ function App() {
                         </ul>
 
                         <h4>Conversion Voodoo </h4>
-                        <p class="title">Web Developer - San Diego, CA - 2011–2015</p>
+                        <p className="title">Web Developer - San Diego, CA - 2011–2015</p>
                         <p>Worked with a small team of developers and designers, using advanced development strategies, to implement and maintain custom reporting and testing systems for numerous clients.</p>
                         <ul>
                             <li>Maintained a multitude of custom web applications and systems for an ever changing client base.</li>
@@ -103,7 +105,7 @@ function App() {
                         </ul>
 
                         <h4>San Diego Luxury Transportation </h4>
-                        <p class="title">Web Designer/IT Administrator - San Diego, CA - 2009-2011</p>
+                        <p className="title">Web Designer/IT Administrator - San Diego, CA - 2009-2011</p>
                         <p>Created web sites geared toward specific regional ad campaigns, implemented new infrastructure technologies and provided administrative support for company systems.</p>
                         <ul>
                             <li>Designed and implemented websites for various marketing campaigns including PPC and affiliate traffic.</li>
@@ -112,43 +114,41 @@ function App() {
                         </ul>
 
                     </div>
-                    <div class="clear"></div>
+                    <div className="clear"></div>
                 </div>
-                <div class="row">
-                    <div class="category column">
+                <div className="row">
+                    <div className="category column">
                         <h4>Education</h4>
                     </div>
-                    <div class="information column">
+                    <div className="information column">
                         <h4>San Diego State University</h4>
                         <p><strong>Major:</strong> B.S. in Computer Science</p>
                         <h4>Palomar Community College</h4>
-                        <p><strong>Certificate: </strong> Web Development with Emphasis in Java/Open Source <br><small class="title">Dean's list Spring 2009</small></p>
+                        <p><strong>Certificate: </strong> Web Development with Emphasis in Java/Open Source <br /><small className="title">Dean's list Spring 2009</small></p>
                     </div>
-                    <div class="clear"></div>
+                    <div className="clear" />
                 </div>
-                <div class="row">
-                    <div class="category column">
+                <div className="row">
+                    <div className="category column">
                         <h4>Volunteerism</h4>
                     </div>
-                    <div class="information column">
+                    <div className="information column">
                         <h4>San Pasqual High School</h4>
-                        <p class="title">Wrestling Coach - Escondido, CA - 2007-2009</p>
+                        <p className="title">Wrestling Coach - Escondido, CA - 2007-2009</p>
                         <p>Helped maintain after school wrestling program for San Pasqual High School athletes.</p>
                     </div>
-                    <div class="clear"></div>
+                    <div className="clear" />
                 </div>
-                <div class="row">
-                    <div class="category column">
+                <div className="row">
+                    <div className="category column">
                         <h4>References</h4>
                     </div>
-                    <div class="information column">
-                        <p>Available upon request <br> <small class="title">I honor my references' privacy while displaying my resume online. Feel free to contact me for more information!</small></p>
+                    <div className="information column">
+                        <p>Available upon request <br /> <small className="title">I honor my references' privacy while displaying my resume online. Feel free to contact me for more information!</small></p>
                     </div>
-                    <div class="clear"></div>
+                    <div className="clear" />
                 </div>
             </div>
-        </div>
-          </div>
         </div>
     </div>
   );

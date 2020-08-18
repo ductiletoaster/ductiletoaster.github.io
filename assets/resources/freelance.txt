@@ -1,8 +1,0 @@
-Base rate to build site
-host site xMonthly (Azure)
-host DNS xMonthly (DnsMade easy)
-
-upgrades...
-DNS failover? Azure East or Amazon
-Cloudfront integration for static files (Speed optimization)
-

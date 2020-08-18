@@ -112,12 +112,11 @@ p.title {
 .paperstack {
 	width: 150px; /* 8.5 x 11 = width ~75% of height */
 	height: 200px;
-	/* background: url(../images/paperstack.png) top center no-repeat; */
 	margin: 40px auto -25px auto;
 	position: relative;
 }
-.paperstack .cover {
-
+.paperstack .cover img {
+	width: 50%;
 }
 .paperstack .cover pre {
 	margin: 8px;
