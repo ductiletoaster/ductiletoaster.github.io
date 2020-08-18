@@ -116,11 +116,16 @@ p.title {
 	position: relative;
 }
 .paperstack .cover img {
-	width: 50%;
+    width: 75%;
+    display: block;
+    margin: 5px auto;
 }
-.paperstack .cover pre {
+.paperstack .cover p {
 	margin: 8px;
 	overflow: hidden;
+    color: #252525;
+    font-size: 13px;
+    text-align: center;
 }
 .paperstack .page {
 	width: 150px; /* 8.5 x 11 = width ~75% of height */

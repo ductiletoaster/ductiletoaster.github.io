@@ -16,8 +16,8 @@ function App() {
             <div id="intro">
                 <div className="paperstack fade-in">
                     <div className="page cover">
-                        <img src={logo} />
-                        <pre></pre>
+                        <img src={logo} alt=""/>
+                        <p>10001000111 010010110 0011110</p>
                     </div>
                     <div className="page"></div>
                     <div className="page"></div>
