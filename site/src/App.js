@@ -17,7 +17,7 @@ function App() {
                 <div className="paperstack fade-in">
                     <div className="page cover">
                         <img src={logo} alt=""/>
-                        <p>10001000111 010010110 0011110</p>
+                        <p>10001000111001 <br /> 01001011010<br /> 0011110</p>
                     </div>
                     <div className="page"></div>
                     <div className="page"></div>
@@ -49,10 +49,10 @@ function App() {
                     <div className="information column">
                         <h4>Knowledge Base</h4>
                         <ul>
-                            <li>7+ years of experience in all stages of Web and software development life-cycle, from concept and development through quality assurance (QA) and tuning.</li>
+                            <li>10+ years of experience in all stages of Web and software development life-cycle, from concept and development through quality assurance (QA) and tuning.</li>
                             <li>Highly versed in cutting edge web technologies with skills in creating web applications utilizing many cutting edge technologies.</li>
                             <li>In-depth understanding of modern software development concepts including Agile development, revision control, system design and maintenance.</li>
-                            <li>Extensive knowledge with various programming and scripting languages, web design, project management and multi-variable testing.</li>
+                            <li>Extensive knowledge with various programming and scripting languages, web design, project management and multi-variable &amp; AB testing.</li>
                             <li>Proven background in web development with an emphasis on a customer centric pay for performance work ethic.</li>
                             <li>Superior communication, analytical and interpersonal skills.</li>
                         </ul>
@@ -64,10 +64,9 @@ function App() {
                     <div className="information column">
                         <h4>Software Development Technologies</h4>
                         <ul>
-                            <li>Front-end development (HTML5, CSS3, JavaScript + JSON + AJAX).</li>
-                            <li>Back-end development (PHP5.6+, Python, MySQL, SQLite, Azure SQL, MongoDB)</li>
+                            <li>Front-end development (HTML, CSS, JavaScript + React).</li>
+                            <li>Back-end development (PHP, Python, SQL, NodeJS)</li>
                             <li>Application programing  (C, C++, Java).</li>
-                            <li>Source/Revision (GIT, Mercurial, SVN).</li>
                         </ul>
                         <h4>Software Development Methodologies</h4>
                         <ul>
