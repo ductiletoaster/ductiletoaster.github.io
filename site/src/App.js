@@ -1,11 +1,9 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import "./App.css"
 
 function App() {
   return (
     <div id="wrapper">
-        
         <div id="header">
             <div id="me">
                 <h1>Brian Gebel</h1>
@@ -13,32 +11,10 @@ function App() {
                 <div className="horizontal-break-150"></div>
                 <h3>Hacking away at the web for over 10 years</h3>
             </div>
-            <div id="intro">
-                <div className="paperstack fade-in">
-                    <div className="page cover">
-                        <img src={logo} alt=""/>
-                        <p>10001000111001 <br /> 01001011010<br /> 0011110</p>
-                    </div>
-                    <div className="page"></div>
-                    <div className="page"></div>
-                    <div className="page"></div>
-                    <div className="page"></div>
-                </div>
-                <div className="vertical-break-200"></div>
-                <div className="circle-75">
-                    <h2>ME</h2>
-                </div>
-                <div className="vertical-break-200"></div>
-            </div>
-            <div id="contact" style={{display: 'none'}}>
-                <p>
-                    Email: <a className="email" href="mailto:me@briangebel.com">me@briangebel.com</a><br />
-                    GitHub: <a className="profile" href="https://github.com/ductiletoaster" target="_blank">https://github.com/ductiletoaster</a>
-                </p>
-            </div>
-            <div id="objective" style={{display: 'none'}}>
+            <div id="objective">
                 <p>My objective is to attain a position that can utilize my skills as an honest, responsible, and hardworking individual to further my experience in software development.</p>
             </div>
+            <div className="vertical-break-150"></div>
         </div>
         <div id="content">
             <div id="resume">
@@ -143,6 +119,10 @@ function App() {
                         <h4>References</h4>
                     </div>
                     <div className="information column">
+                        <p>
+                            LinkedIn: <a className="profile" href="https://www.linkedin.com/in/briangebel" target="_blank" rel="noopener noreferrer">https://www.linkedin.com/in/briangebel</a><br />
+                            GitHub: <a className="profile" href="https://github.com/ductiletoaster" target="_blank" rel="noopener noreferrer">https://github.com/ductiletoaster</a>
+                        </p>
                         <p>Available upon request <br /> <small className="title">I honor my references' privacy while displaying my resume online. Feel free to contact me for more information!</small></p>
                     </div>
                     <div className="clear" />
