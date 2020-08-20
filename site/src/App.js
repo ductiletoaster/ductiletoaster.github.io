@@ -125,7 +125,10 @@ function App() {
                     </div>
                     <div className="information column">
                         <h4>San Pasqual High School</h4>
-                        <p className="subtitle">Wrestling Coach - Escondido, CA - 2007-2009</p>
+                        <h5>Wrestling Coach</h5>
+                        <h6 className="subtitle">Oct. 2007-Mar. 2007, Oct. 2008-Mar. 2009</h6>
+                        <h6 className="subtitle">Escondido, CA</h6>
+                        <br />
                         <p>Helped maintain after school wrestling program for San Pasqual High School athletes.</p>
                     </div>
                     <div className="clear" />
