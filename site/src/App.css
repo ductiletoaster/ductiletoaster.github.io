@@ -39,15 +39,7 @@
 #header {
 	position: relative;
 	padding: 30px 0 30px 0;
-}
-#me {
 	text-align: center;
-}
-#intro h2 {
-	font-size: 36px;
-	margin: 0;
-	position: relative;
-	top: 15px;
 }
 #objective {
 	text-align: center;
@@ -160,10 +152,17 @@
 	}
 }
 
-/* Target for print media */
 @media print {
-	@page {
-		margin: 0.5in;
+	#header {
+		position: relative;
+		padding: 0;
 	}
-
+	#objective {
+		text-align: left;
+		margin: 0;
+		max-width: 100%;
+	}
+	.hide-on-print {
+		display: none;
+	}
 }

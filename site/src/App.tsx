@@ -9,12 +9,12 @@ function App() {
                 <h1>Brian Gebel</h1>
                 <h2>Software Engineer</h2>
                 <div className="horizontal-break-150"></div>
-                <h3>Hacking away at the web for over 10 years</h3>
+                <h3 className="hide-on-print">Hacking away at the web for over 10 years</h3>
             </div>
             <div id="objective">
                 <p>My objective is to attain a position that can utilize my skills as an honest, responsible, and hardworking individual to further my experience in software development. As an engineering manager it is my intention to help foster a collaborative, inclusive and fun enviroment for my team to build on their own technical experience.</p>
             </div>
-            <div className="vertical-break-150"></div>
+            <div className="vertical-break-150 hide-on-print" />
         </div>
         <div id="content">
             <div id="resume">
