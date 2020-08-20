@@ -12,7 +12,7 @@ function App() {
                 <h3>Hacking away at the web for over 10 years</h3>
             </div>
             <div id="objective">
-                <p>My objective is to attain a position that can utilize my skills as an honest, responsible, and hardworking individual to further my experience in software development.</p>
+                <p>My objective is to attain a position that can utilize my skills as an honest, responsible, and hardworking individual to further my experience in software development. As an engineering manager it is my intention to help foster a collaborative, inclusive and fun enviroment for my team to build on their own technical experience.</p>
             </div>
             <div className="vertical-break-150"></div>
         </div>
@@ -26,10 +26,10 @@ function App() {
                         <h4>Knowledge Base</h4>
                         <ul>
                             <li>10+ years of experience in all stages of Web and software development life-cycle, from concept and development through quality assurance (QA) and tuning.</li>
-                            <li>Highly versed in cutting edge web technologies with skills in creating web applications utilizing many cutting edge technologies.</li>
-                            <li>In-depth understanding of modern software development concepts including Agile development, revision control, system design and maintenance.</li>
-                            <li>Extensive knowledge with various programming and scripting languages, web design, project management and multi-variable &amp; AB testing.</li>
-                            <li>Proven background in web development with an emphasis on a customer centric pay for performance work ethic.</li>
+                            <li>Highly versed in micro service and modular system design patterns.</li>
+                            <li>In-depth understanding of modern software management concepts including Agile development, data analysis, technical reporting and roadmapping.</li>
+                            <li>Extensive knowledge with various programming and scripting languages, web design, system design and multi-variable &amp; AB testing.</li>
+                            <li>Proven background in leading teams, including hiring, coaching and talent development.</li>
                             <li>Superior communication, analytical and interpersonal skills.</li>
                         </ul>
                         <div className="clear"></div>
@@ -38,19 +38,18 @@ function App() {
                         <h4>Skills</h4>
                     </div>
                     <div className="information column">
-                        <h4>Software Development Technologies</h4>
+                        <h4>Project Management</h4>
                         <ul>
-                            <li>Front-end development (HTML, CSS, JavaScript + React).</li>
-                            <li>Back-end development (PHP, Python, SQL, NodeJS)</li>
-                            <li>Application programing  (C, C++, Java).</li>
+                            <li>Scrum and agile methodologies</li>
+                            <li>Data analytics &amp; technical reporting</li>
+                            <li>Technical onboarding and training</li>
                         </ul>
-                        <h4>Software Development Methodologies</h4>
+                        <h4>Engineering</h4>
                         <ul>
-                            <li>Object Oriented Programming (OOP)</li>
-                            <li>Object Relational Mapping (ORM)</li>
-                            <li>Model View Controller (MVC)</li>
-                            <li>RESTful Principles</li>
-                            <li>Agile Methods</li>
+                            <li>Architecture: Amazon AWS and Microsoft Azure</li>
+                            <li>Programming: JavaScript, TypeScript, PHP, Python, Java, Kotlin, SQL, CSS and HTML</li>
+                            <li>Frameworks: React, React Native, Laravel, Django, Flask and Spring Boot</li>
+                            <li>Runtimes: NodeJS, GraphQL, Browser and Native iOS &amp; Android</li>
                         </ul>
                     </div>
                     <div className="clear"></div>
@@ -60,8 +59,14 @@ function App() {
                         <h4>Experience</h4>
                     </div>
                     <div className="information column">
-                        <h4>GoFundMe </h4>
-                        <p className="title">Software Engineer - San Diego, CA - 2015-Present</p>
+                        <h4>GoFundMe</h4>
+                        <p className="title">Senior Software Engineer, Manager - San Diego, CA - Aug. 2019-Present</p>
+                        <p>Currently part of a rapidly growing team of Software Engineers, QA Analysts, and product specialists tasked with growing the GoFundMe platform.</p>
+                        <ul>
+                            <li>Responsible for building and maintaining numerous customer service and business development tools that integrate heavily into our user facing product.</li>
+                        </ul>
+
+                        <p className="title">Senior Software Engineer - San Diego, CA - Oct. 2015-Aug. 2019</p>
                         <p>Currently part of a rapidly growing team of Software Engineers, QA Analysts, and product specialists tasked with growing the GoFundMe platform.</p>
                         <ul>
                             <li>Responsible for building and maintaining numerous customer service and business development tools that integrate heavily into our user facing product.</li>
@@ -69,8 +74,14 @@ function App() {
                             <li>Integrated with a third party service to do advanced keyword analysis with the goal of protecting our visitors from malicious users.</li>
                         </ul>
 
-                        <h4>Conversion Voodoo </h4>
-                        <p className="title">Web Developer - San Diego, CA - 2011–2015</p>
+                        <h4>Conversion Voodoo</h4>
+                        <p className="title">Senior Web Developer - San Diego, CA - Oct. 2014-Oct. 2015</p>
+                        <p>Worked with a small team of developers and designers, using advanced development strategies, to implement and maintain custom reporting and testing systems for numerous clients.</p>
+                        <ul>
+                            <li>Maintained a multitude of custom web applications and systems for an ever changing client base.</li>
+                        </ul>
+
+                        <p className="title">Web Developer - San Diego, CA - Jan. 2011-Oct. 2015</p>
                         <p>Worked with a small team of developers and designers, using advanced development strategies, to implement and maintain custom reporting and testing systems for numerous clients.</p>
                         <ul>
                             <li>Maintained a multitude of custom web applications and systems for an ever changing client base.</li>
@@ -79,8 +90,8 @@ function App() {
                             <li>Implement front-end AB and multivariate tests to improve site performance. Many of our clients saw a 15% - 150% improvement in conversion rate. Resulting in millions of dollars in additional revenue.</li>
                         </ul>
 
-                        <h4>San Diego Luxury Transportation </h4>
-                        <p className="title">Web Designer/IT Administrator - San Diego, CA - 2009-2011</p>
+                        <h4>San Diego Luxury Transportation</h4>
+                        <p className="title">Web Designer/IT Administrator - San Diego, CA - Oct. 2009-Jan. 2011</p>
                         <p>Created web sites geared toward specific regional ad campaigns, implemented new infrastructure technologies and provided administrative support for company systems.</p>
                         <ul>
                             <li>Designed and implemented websites for various marketing campaigns including PPC and affiliate traffic.</li>
