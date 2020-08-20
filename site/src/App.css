@@ -26,17 +26,8 @@
 .clear {
 	clear: left;
 }
-.title {
-	font-style:italic;
-	font-family: Georgia, Serif;
-	color:#999;
-}
-
-/* Element Specific Inheritance */
-p.title {
-	font-size:16px;
-	font-weight:400;
-	margin: -8px 0 6px 0;
+.subtitle {
+    color: #888;
 }
 
 /* Everything Else :) */
@@ -97,6 +88,9 @@ p.title {
 .information {
 	width: 75%;
 	min-height: 120px;
+}
+.information h5 {
+    line-height: 1.2em;
 }
 
 /* Global Animated classes */

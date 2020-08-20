@@ -46,10 +46,10 @@ function App() {
                         </ul>
                         <h4>Engineering</h4>
                         <ul>
-                            <li>Architecture: Amazon AWS and Microsoft Azure</li>
-                            <li>Programming: JavaScript, TypeScript, PHP, Python, Java, Kotlin, SQL, CSS and HTML</li>
-                            <li>Frameworks: React, React Native, Laravel, Django, Flask and Spring Boot</li>
-                            <li>Runtimes: NodeJS, GraphQL, Browser and Native iOS &amp; Android</li>
+                            <li><strong>Architecture:</strong> Amazon AWS and Microsoft Azure</li>
+                            <li><strong>Programming:</strong> JavaScript, TypeScript, PHP, Python, Java, Kotlin, SQL, CSS and HTML</li>
+                            <li><strong>Frameworks:</strong> React, React Native, Laravel, Django, Flask and Spring Boot</li>
+                            <li><strong>Runtimes:</strong> NodeJS, GraphQL, Browser and Native iOS &amp; Android</li>
                         </ul>
                     </div>
                     <div className="clear"></div>
@@ -60,13 +60,14 @@ function App() {
                     </div>
                     <div className="information column">
                         <h4>GoFundMe</h4>
-                        <p className="title">Senior Software Engineer, Manager - San Diego, CA - Aug. 2019-Present</p>
-                        <p>Currently part of a rapidly growing team of Software Engineers, QA Analysts, and product specialists tasked with growing the GoFundMe platform.</p>
-                        <ul>
-                            <li>Responsible for building and maintaining numerous customer service and business development tools that integrate heavily into our user facing product.</li>
-                        </ul>
-
-                        <p className="title">Senior Software Engineer - San Diego, CA - Oct. 2015-Aug. 2019</p>
+                        <h5>Senior Software Engineer, Manager</h5>
+                        <h6 className="subtitle">Aug. 2019-Present</h6>
+                        <h6 className="subtitle">San Diego, CA</h6>
+                        <br />
+                        <h5>Senior Software Engineer</h5>
+                        <h6 className="subtitle">Oct. 2015-Aug. 2019</h6>
+                        <h6 className="subtitle">San Diego, CA</h6>
+                        <br />
                         <p>Currently part of a rapidly growing team of Software Engineers, QA Analysts, and product specialists tasked with growing the GoFundMe platform.</p>
                         <ul>
                             <li>Responsible for building and maintaining numerous customer service and business development tools that integrate heavily into our user facing product.</li>
@@ -75,13 +76,14 @@ function App() {
                         </ul>
 
                         <h4>Conversion Voodoo</h4>
-                        <p className="title">Senior Web Developer - San Diego, CA - Oct. 2014-Oct. 2015</p>
-                        <p>Worked with a small team of developers and designers, using advanced development strategies, to implement and maintain custom reporting and testing systems for numerous clients.</p>
-                        <ul>
-                            <li>Maintained a multitude of custom web applications and systems for an ever changing client base.</li>
-                        </ul>
-
-                        <p className="title">Web Developer - San Diego, CA - Jan. 2011-Oct. 2015</p>
+                        <h5>Senior Web Developer</h5>
+                        <h6 className="subtitle">Oct. 2014-Oct. 2015</h6>
+                        <h6 className="subtitle">San Diego, CA</h6>
+                        <br />
+                        <h5>Web Developer</h5>
+                        <h6 className="subtitle">Jan. 2011-Oct. 2015</h6>
+                        <h6 className="subtitle">San Diego, CA</h6>
+                        <br />
                         <p>Worked with a small team of developers and designers, using advanced development strategies, to implement and maintain custom reporting and testing systems for numerous clients.</p>
                         <ul>
                             <li>Maintained a multitude of custom web applications and systems for an ever changing client base.</li>
@@ -91,7 +93,10 @@ function App() {
                         </ul>
 
                         <h4>San Diego Luxury Transportation</h4>
-                        <p className="title">Web Designer/IT Administrator - San Diego, CA - Oct. 2009-Jan. 2011</p>
+                        <h5>Web Designer/IT Administrator</h5>
+                        <h6 className="subtitle">Oct. 2009-Jan. 2011</h6>
+                        <h6 className="subtitle">San Diego, CA</h6>
+                        <br />
                         <p>Created web sites geared toward specific regional ad campaigns, implemented new infrastructure technologies and provided administrative support for company systems.</p>
                         <ul>
                             <li>Designed and implemented websites for various marketing campaigns including PPC and affiliate traffic.</li>
@@ -110,7 +115,7 @@ function App() {
                         <h4>San Diego State University</h4>
                         <p><strong>Major:</strong> B.S. in Computer Science</p>
                         <h4>Palomar Community College</h4>
-                        <p><strong>Certificate: </strong> Web Development with Emphasis in Java/Open Source <br /><small className="title">Dean's list Spring 2009</small></p>
+                        <p><strong>Certificate: </strong> Web Development with Emphasis in Java/Open Source <br /><small className="subtitle">Dean's list Spring 2009</small></p>
                     </div>
                     <div className="clear" />
                 </div>
@@ -120,7 +125,7 @@ function App() {
                     </div>
                     <div className="information column">
                         <h4>San Pasqual High School</h4>
-                        <p className="title">Wrestling Coach - Escondido, CA - 2007-2009</p>
+                        <p className="subtitle">Wrestling Coach - Escondido, CA - 2007-2009</p>
                         <p>Helped maintain after school wrestling program for San Pasqual High School athletes.</p>
                     </div>
                     <div className="clear" />
@@ -131,10 +136,10 @@ function App() {
                     </div>
                     <div className="information column">
                         <p>
-                            LinkedIn: <a className="profile" href="https://www.linkedin.com/in/briangebel" target="_blank" rel="noopener noreferrer">https://www.linkedin.com/in/briangebel</a><br />
-                            GitHub: <a className="profile" href="https://github.com/ductiletoaster" target="_blank" rel="noopener noreferrer">https://github.com/ductiletoaster</a>
+                            <strong>LinkedIn:</strong> <a className="profile" href="https://www.linkedin.com/in/briangebel" target="_blank" rel="noopener noreferrer">https://www.linkedin.com/in/briangebel</a><br />
+                            <strong>GitHub:</strong> <a className="profile" href="https://github.com/ductiletoaster" target="_blank" rel="noopener noreferrer">https://github.com/ductiletoaster</a>
                         </p>
-                        <p>Available upon request <br /> <small className="title">I honor my references' privacy while displaying my resume online. Feel free to contact me for more information!</small></p>
+                        <p>Available upon request <br /> <small className="subtitle">I honor my references' privacy while displaying my resume online. Feel free to contact me for more information!</small></p>
                     </div>
                     <div className="clear" />
                 </div>
