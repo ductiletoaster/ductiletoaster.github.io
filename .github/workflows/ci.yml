@@ -25,4 +25,4 @@ jobs:
 
       - name: Building Application
         working-directory: site
-        run: npm builds
+        run: npm build
