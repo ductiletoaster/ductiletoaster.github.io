@@ -21,8 +21,8 @@ jobs:
 
       - name: Running tests
         working-directory: site
-        run: npm test
+        run: npm run test
 
       - name: Building Application
         working-directory: site
-        run: npm build
+        run: npm run build
