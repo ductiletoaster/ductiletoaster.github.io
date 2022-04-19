@@ -5,6 +5,10 @@ on:
   push:
     branches: [ master, main ]
 
+defaults:
+  run:
+    working-directory: site
+
 jobs:
   build:
 
