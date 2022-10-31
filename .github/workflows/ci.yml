@@ -15,7 +15,7 @@ jobs:
       - name: Checkout Source
         uses: actions/checkout@v3
 
-      - name: Cache node modules
+      - name: Cache Node Modules
         id: cache-npm
         uses: actions/cache@v3
         env:
@@ -29,8 +29,8 @@ jobs:
             ${{ runner.os }}-build-
             ${{ runner.os }}-
 
-      - if: ${{ steps.cache-npm.outputs.cache-hit != 'true' }}
-        name: List the state of node modules
+      - name: List Node Modules State
+        if: ${{ steps.cache-npm.outputs.cache-hit != 'true' }}
         continue-on-error: true
         run: npm list
 
@@ -48,6 +48,7 @@ jobs:
 
       - name: Deploy Application
         if: github.ref == 'refs/heads/main'
+        working-directory: site
         run: |
           git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
           npm run deploy -- -u "github-actions-bot <support+actions@github.com>"
