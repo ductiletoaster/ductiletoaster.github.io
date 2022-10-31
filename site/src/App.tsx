@@ -12,7 +12,7 @@ function App() {
                 <h3 className="hide-on-print">Hacking away at the web for over 10 years</h3>
             </div>
             <div id="objective">
-                <p>My objective is to attain a position that can utilize my skills as an honest, responsible, and hardworking individual to further my experience in software development. As an engineering manager it is my intention to help foster a collaborative, inclusive and fun enviroment for my team to build on their own technical experience.</p>
+                <p>My objective is to attain a position that can utilize my skills as an honest, responsible, and hardworking individual to further my experience in software development. As a senior-level staff engineer &amp; manager it is my intention to help foster a collaborative, inclusive and fun enviroment for my team to build on their own technical experience while balancing product and engineering requirements. </p>
             </div>
             <div className="vertical-break-150 hide-on-print" />
         </div>
@@ -25,12 +25,12 @@ function App() {
                     <div className="information column">
                         <h4>Knowledge Base</h4>
                         <ul>
-                            <li>10+ years of experience in all stages of Web and software development life-cycle, from concept and development through quality assurance (QA) and tuning.</li>
+                            <li>12+ years of experience in all stages of software development life-cycle, from concept, design and development through to quality assurance (QA) and release.</li>
                             <li>Highly versed in micro service and modular system design patterns.</li>
-                            <li>In-depth understanding of modern software management concepts including Agile development, data analysis, technical reporting and roadmapping.</li>
-                            <li>Extensive knowledge with various programming and scripting languages, web design, system design and multi-variable &amp; AB testing.</li>
+                            <li>In-depth understanding of modern software management concepts including agile development, waterfall, gantt and long term roadmapping &amp; planning.</li>
+                            <li>Extensive experience with various programming and scripting languages, web design, system design and multi-variable &amp; AB split testing.</li>
                             <li>Proven background in leading teams, including hiring, coaching and talent development.</li>
-                            <li>Superior communication, analytical and interpersonal skills.</li>
+                            <li>Superior communication, analytical and interpersonal skills. Extending to both internal and external partnerships.</li>
                         </ul>
                         <div className="clear"></div>
                     </div>
@@ -38,17 +38,11 @@ function App() {
                         <h4>Skills</h4>
                     </div>
                     <div className="information column">
-                        <h4>Project Management</h4>
-                        <ul>
-                            <li>Scrum and agile methodologies</li>
-                            <li>Data analytics &amp; technical reporting</li>
-                            <li>Technical onboarding and training</li>
-                        </ul>
                         <h4>Engineering</h4>
                         <ul>
                             <li><strong>Architecture:</strong> Amazon AWS and Microsoft Azure</li>
                             <li><strong>Programming:</strong> JavaScript, TypeScript, PHP, Python, Java, Kotlin, SQL, CSS and HTML</li>
-                            <li><strong>Frameworks:</strong> React, React Native, Laravel, Django, Flask and Spring Boot</li>
+                            <li><strong>Frameworks:</strong> React, Next.js, Laravel, Django, and Spring Boot</li>
                             <li><strong>Runtimes:</strong> NodeJS, GraphQL, Browser and Native iOS &amp; Android</li>
                         </ul>
                     </div>
@@ -61,26 +55,37 @@ function App() {
                     <div className="information column">
                         <h4>GoFundMe</h4>
                         <div className="timeline">
-                            <h5>Senior Software Engineer, Manager</h5>
-                            <h6 className="subtitle">Aug. 2019-Present</h6>
+                            <h5>Staff Software Engineer, Manager II</h5>
+                            <h6 className="subtitle">Mar. 2021-Present</h6>
                             <h6 className="subtitle">San Diego, CA</h6>
                             <br />
-                        </div>
-                        <div className="timeline">
+      
+                            <h5>Senior Software Engineer, Manager I</h5>
+                            <h6 className="subtitle">Aug. 2019-Mar. 2021</h6>
+                            <h6 className="subtitle">San Diego, CA</h6>
+                            <br />
+
                             <h5>Senior Software Engineer</h5>
-                            <h6 className="subtitle">Oct. 2015-Aug. 2019</h6>
+                            <h6 className="subtitle">Sep. 2017-Aug. 2019</h6>
+                            <h6 className="subtitle">San Diego, CA</h6>
+                            <br />
+
+                            <h5>Software Engineer II</h5>
+                            <h6 className="subtitle">Oct. 2015-Sep. 2017</h6>
                             <h6 className="subtitle">San Diego, CA</h6>
                             <br />
                         </div>
-                        <p>Currently part of a rapidly growing team of Software Engineers, QA Analysts, and product specialists tasked with growing the GoFundMe platform.</p>
+                        <p>Currently leading a multi team effort to improve our Auth, Comms and Localization services while supporting our existing internal and external integrations. Previously designed and implemented a range of systems including our first serverside rendered isomorphic JavaScript SPA.</p>
                         <ul>
-                            <li>Responsible for building and maintaining numerous customer service and business development tools that integrate heavily into our user facing product.</li>
-                            <li>Worked as part of a team to build an image review tool that handles approximately 18 thousands images a day.</li>
-                            <li>Integrated with a third party service to do advanced keyword analysis with the goal of protecting our visitors from malicious users.</li>
+                            <li>Responsible for managing 3 teams each dedicated to a single vertical.</li>
+                            <li>Expanded and Improved upon an event drive email, push and sms based notification system.</li>
+                            <li>Modernized authentication to a more standard pattern using JWT as a transport and a robust Redis based session management system.</li>
+                            <li>Advised on an API based Localization Service for streamlined translation pipeline.</li>
                         </ul>
+    
                         <div className="timeline">
                             <h4>Conversion Voodoo</h4>
-                            <h5>Senior Web Developer</h5>
+                            <h5>Senir Web Developer</h5>
                             <h6 className="subtitle">Oct. 2014-Oct. 2015</h6>
                             <h6 className="subtitle">San Diego, CA</h6>
                             <br />

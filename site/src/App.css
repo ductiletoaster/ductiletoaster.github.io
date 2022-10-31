@@ -81,6 +81,9 @@
 	width: 75%;
 	min-height: 120px;
 }
+.information h4 {
+    margin-bottom: 1em;
+}
 .information h5 {
     line-height: 1.2em;
 }
