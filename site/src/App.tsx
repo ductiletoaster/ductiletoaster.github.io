@@ -12,7 +12,7 @@ function App() {
                 <h3 className="hide-on-print">Hacking away at the web for over 10 years</h3>
             </div>
             <div id="objective">
-                <p>My objective is to attain a position that can utilize my skills as an honest, responsible, and hardworking individual to further my experience in software development. As a senior-level staff engineer &amp; manager it is my intention to help foster a collaborative, inclusive and fun enviroment for my team to build on their own technical experience while balancing product and engineering requirements. </p>
+                <p>My objective is to attain a position that can utilize my skills as an honest, responsible, and hardworking individual to further my experience in software development. As a senior-level staff engineer &amp; manager it is my intention to help foster a collaborative, inclusive and fun environment for my team to build on their own technical experience while balancing product and engineering requirements. </p>
             </div>
             <div className="vertical-break-150 hide-on-print" />
         </div>
