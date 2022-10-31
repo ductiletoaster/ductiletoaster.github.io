@@ -75,12 +75,14 @@ function App() {
                             <h6 className="subtitle">San Diego, CA</h6>
                             <br />
                         </div>
-                        <p>Currently leading a multi team effort to improve our Auth, Comms and Localization services while supporting our existing internal and external integrations. Previously designed and implemented a range of systems including our first serverside rendered isomorphic JavaScript SPA.</p>
+                        <p>Currently leading a multi team effort to improve our Auth, Comms and Localization services while supporting our existing internal and external integrations.</p>
                         <ul>
                             <li>Responsible for managing 3 teams each dedicated to a single vertical.</li>
                             <li>Expanded and Improved upon an event drive email, push and sms based notification system.</li>
-                            <li>Modernized authentication to a more standard pattern using JWT as a transport and a robust Redis based session management system.</li>
+                            <li>Modernized authentication to a more standard pattern using JWT and a robust Redis based session management system.</li>
                             <li>Advised on an API based Localization Service for streamlined translation pipeline.</li>
+                            <li>Designed and implemented a range of systems including our first server-side rendered isomorphic JavaScript SPA.</li>
+                            <li>Led and implemented a variety of product initiatives ranging from Sign On, Account &amp; Campaign Management, Payout (Withdrawal) &amp; Payin (Checkout) and several other smaller experiments and projects. </li>
                         </ul>
     
                         <div className="timeline">
