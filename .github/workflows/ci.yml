@@ -3,7 +3,7 @@ name: CI Workflow
 on:
   pull_request:
   push:
-    branches: [ master, main ]
+    branches: [ main ]
 
 jobs:
   build:
@@ -26,3 +26,8 @@ jobs:
       - name: Building Application
         working-directory: site
         run: npm run build
+
+      - name: Deploy Application
+        if: github.ref == 'refs/heads/main'
+        working-directory: site
+        run: npm run deploy
