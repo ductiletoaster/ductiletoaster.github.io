@@ -91,4 +91,7 @@ ul {
 		text-align: left;
 		margin: 0 0 10px 0;
 	}
+	body {
+		font-size: 13px;
+	}
 }
