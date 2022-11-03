@@ -87,7 +87,7 @@ function App() {
     
                         <div className="timeline">
                             <h4>Conversion Voodoo</h4>
-                            <h5>Senir Web Developer</h5>
+                            <h5>Senior Web Developer</h5>
                             <h6 className="subtitle">Oct. 2014-Oct. 2015</h6>
                             <h6 className="subtitle">San Diego, CA</h6>
                             <br />
@@ -158,7 +158,7 @@ function App() {
                             <strong>LinkedIn:</strong> <a className="profile" href="https://www.linkedin.com/in/briangebel" target="_blank" rel="noopener noreferrer">https://www.linkedin.com/in/briangebel</a><br />
                             <strong>GitHub:</strong> <a className="profile" href="https://github.com/ductiletoaster" target="_blank" rel="noopener noreferrer">https://github.com/ductiletoaster</a>
                         </p>
-                        <p>Available upon request <br /> <small className="subtitle">I honor my references' privacy while displaying my resume online. Feel free to contact me for more information!</small></p>
+                        <p>Available upon request <br /> <small className="subtitle">I honor my references' privacy while displaying my resume online. Feel free to contact me for more information.</small></p>
                     </div>
                     <div className="clear" />
                 </div>
