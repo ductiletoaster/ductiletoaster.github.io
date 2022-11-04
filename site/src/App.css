@@ -164,6 +164,11 @@
 		text-align: left;
 		margin: 0;
 		max-width: 100%;
+		padding: 15px 0 15px 0;
+	}
+	.horizontal-break,
+	.horizontal-break-150 {
+		margin: 0px;
 	}
 	.information h4 {
 		margin-bottom: 0.8em;

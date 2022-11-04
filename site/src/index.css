@@ -77,7 +77,8 @@ ul {
 
 /* Target for print media */
 @media print {
-	@page {
+	@page { 
+		size: auto;  
 		margin: 0.5in;
 	}
 	h1 {
