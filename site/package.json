@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "deploy": "gh-pages -d out",
+    "deploy": "gh-pages -d out --nojekyll --cname='www.briangebel.com' -u='github-actions-bot <support+actions@github.com>'",
+    "lame": "gh-pages --help",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
