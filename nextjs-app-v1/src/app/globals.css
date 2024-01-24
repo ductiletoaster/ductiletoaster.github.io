@@ -1,0 +1,98 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Global Elements */
+* {
+	margin:0;
+	padding:0;
+}
+body {
+	font-size: 16px;
+	font-family: 'Source Sans Pro', sans-serif;   
+	background-color: #fdfdfd;
+}
+pre {
+	display: block;
+	font-family: monospace;
+	white-space: pre;
+}
+h1 {
+	font-family: 'Economica', sans-serif;
+	font-size: 5.85em;
+	font-weight: 700;
+	margin: 0 0 10px 0;
+	padding: 0;
+	text-transform: uppercase;
+}
+h2 {
+	font-family: 'Economica', sans-serif;
+	font-size: 1.7em;
+	font-weight: 700;
+	margin: 0 0 20px 0;
+	padding: 0;
+	text-transform: uppercase;
+}
+h3 {
+	font-family: 'Economica', sans-serif;
+	font-size: 1.15em;
+	font-weight: 400;
+	position:relative;
+	margin: 20px 0 0 0;
+}
+h4 {
+	font-size:1.4em;
+	position:relative;
+	margin:0 0 6px 0;
+}
+h5 {
+	font-size:1.0em;
+	position:relative;
+	margin:0;
+	line-height: 1.6em;
+}
+h6 {
+	font-style: italic;
+    font-weight: 400;
+    font-size: 0.8em;
+	position:relative;
+	margin:0;
+	line-height: 1.4em;
+}
+p {
+	margin:0 0 16px;
+}
+a {
+	color:#999;
+	text-decoration:none;
+	border-bottom:1px dotted #999;
+}
+a:hover {
+	border-bottom-style:solid;
+	color:#000;
+}
+ul {
+	width: auto;
+	margin: 0 0 32px 20px;
+}
+
+/* Target for print media */
+@media print {
+	@page { 
+		size: auto;  
+		margin: 0.5in;
+	}
+	h1 {
+		font-size: 2.0em;
+		font-weight: 700;
+		text-align: left;
+	}
+	h2 {
+		font-size: 1.5em;
+		font-weight: 500;
+		text-align: left;
+		margin: 0 0 10px 0;
+	}
+	body {
+		font-size: 13px;
+	}
+}
