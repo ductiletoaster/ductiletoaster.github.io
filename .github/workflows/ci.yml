@@ -13,11 +13,11 @@ jobs:
 
     steps:
       - name: Checkout Source
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Cache Node Modules
         id: cache-npm
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         env:
           cache-name: cache-node-modules
         with:
@@ -38,11 +38,13 @@ jobs:
         working-directory: site
         run: npm install
 
-      - name: Running tests
+      - name: Run Linting & Formatting Checks
         working-directory: site
-        run: npm run test
+        run: | 
+          npm run lint &&
+          npm run format
 
-      - name: Building Application
+      - name: Build Application
         working-directory: site
         run: npm run build
 
