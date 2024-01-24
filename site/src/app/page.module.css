@@ -68,17 +68,15 @@
 .category {
   text-align: right;
   width: 25%;
-  height: 100px;
-  border-right: 1px solid #999;
   padding-right: 20px;
   position: relative;
 }
 .category:after {
   content: "";
   width: 0px;
-  height: 50px;
+  height: 100px;
   position: absolute;
-  border: 1px solid black;
+  border-right: 1px solid #999;
   top: 0;
   right: 0;
 }
