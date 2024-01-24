@@ -7,13 +7,6 @@ const nextConfig = {
    */
   output: "export",
 
-    /**
-   * Set asset path prefix. This is the prefix prepended to your assets path.
-   *
-   * @see https://nextjs.org/docs/app/api-reference/next-config-js/assetPrefix
-   */
-  assetPrefix: '/',
-
   /**
    * Set base path. This is the slug of your GitHub repository.
    *
