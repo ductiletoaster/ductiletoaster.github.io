@@ -38,11 +38,13 @@ jobs:
         working-directory: site
         run: npm install
 
-      - name: Running tests
+      - name: Run Linting & Formatting Checks
         working-directory: site
-        run: npm run test
+        run: | 
+          npm run lint &&
+          npm run format
 
-      - name: Building Application
+      - name: Build Application
         working-directory: site
         run: npm run build
 
