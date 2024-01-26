@@ -2,7 +2,7 @@ import styles from "./page.module.css";
 
 export default function Home() {
   return (
-    <div id={styles.wrapper}>
+    <div id={styles.wrapper} className={styles["fade-in"]}>
       <div id={styles.header}>
         <div id={styles.me}>
           <h1>Brian Gebel</h1>
@@ -322,33 +322,47 @@ export default function Home() {
             </div>
             <div className={`${styles.information} ${styles.column}`}>
               <p>
-                <strong>LinkedIn:</strong>
-                <a
-                  className={styles.profile}
-                  href="https://www.linkedin.com/in/briangebel"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  https://www.linkedin.com/in/briangebel
-                </a>
-                <br />
-                <strong>GitHub:</strong>
-                <a
-                  className={styles.profile}
-                  href="https://github.com/ductiletoaster"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  https://github.com/ductiletoaster
-                </a>
-              </p>
-              <p>
                 Available upon request <br />
                 <small className={styles.subtitle}>
                   I honor my references&apos; privacy while displaying my resume
                   online. Feel free to contact me for more information.
                 </small>
               </p>
+              <ul>
+                <li>
+                  <strong>Website:</strong>{" "}
+                  <a
+                    className={styles.profile}
+                    href="https://www.briangebel.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    https://www.briangebel.com/
+                  </a>
+                </li>
+                <li>
+                  <strong>LinkedIn:</strong>{" "}
+                  <a
+                    className={styles.profile}
+                    href="https://www.linkedin.com/in/briangebel"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    https://www.linkedin.com/in/briangebel
+                  </a>
+                </li>
+                <li>
+                  <strong>GitHub:</strong>{" "}
+                  <a
+                    className={styles.profile}
+                    href="https://github.com/ductiletoaster"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    https://github.com/ductiletoaster
+                  </a>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
