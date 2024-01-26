@@ -30,7 +30,7 @@ export default function Home() {
               <ul>
                 <li>
                   <strong>Leadership and Management:</strong> Fostered the
-                  growth of three distinct teams providing clear guidlinese for
+                  growth of three distinct teams providing clear guidelines for
                   success and advancement for everyone in my reporting lines.
                 </li>
                 <li>
@@ -49,7 +49,7 @@ export default function Home() {
                   <strong>Strategic Planning:</strong> Played a key role in
                   strategic planning at GoFundMe, proposing plans for executing
                   on key goals across a degree of focuses including Pay Out User
-                  Experiances, Email & Communications, and IAM Experiances &
+                  Experiences, Email & Communications, and IAM Experiences &
                   Infrastructure Improvements.
                 </li>
                 <li>
@@ -135,7 +135,7 @@ export default function Home() {
                     <li>
                       Executed experiments to incorporate additional payment
                       methods, enhancing user experience and increasing donation
-                      volume while continuesly reporting our progress & impact
+                      volume while continuously reporting our progress & impact
                       to executive leadership.
                     </li>
                   </ul>
@@ -273,9 +273,9 @@ export default function Home() {
                       position with San Diego Luxury Transportation.
                     </li>
                     <li>
-                      Oversaw web development and infrastructure, managing
-                      dispatching, payroll, and administrative support for
-                      software systems.
+                      Applied expertise in web development, design, and
+                      advertising to oversee the company's online presence and
+                      marketing strategies.
                     </li>
                   </ul>
                 </p>
