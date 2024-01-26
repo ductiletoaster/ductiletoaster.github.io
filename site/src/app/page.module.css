@@ -41,7 +41,8 @@
 #me h2 {
   text-transform: uppercase;
 }
-#cover, #resume {
+#cover,
+#resume {
   line-height: 24px;
 }
 .row {

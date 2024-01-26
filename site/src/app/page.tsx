@@ -12,7 +12,7 @@ export default function Home() {
       </div>
       <div id={styles.content}>
         <div id={styles.cover} className={styles["hide-on-print"]}>
-        <div className={styles.row}>
+          <div className={styles.row}>
             <div className={`${styles.category} ${styles.column}`}>
               <h4>Summary</h4>
             </div>
@@ -63,7 +63,6 @@ export default function Home() {
           </div>
         </div>
         <div id={styles.resume}>
-
           <div className={styles.row}>
             <div className={`${styles.category} ${styles.column}`}>
               <h4>Experience</h4>
