@@ -23,9 +23,6 @@
 .center {
   margin: 0px auto;
 }
-.subtitle {
-  color: #888;
-}
 
 /* Everything Else :) */
 #wrapper {
@@ -38,19 +35,6 @@
   padding: 30px 0 30px 0;
   text-align: center;
 }
-#objective {
-  text-align: center;
-  position: relative;
-  padding: 30px 0 30px 0;
-  margin: 0 auto;
-  max-width: 650px;
-}
-#objective p {
-  font-family: Georgia, Serif;
-  font-style: italic;
-  color: #666;
-}
-
 #resume {
   line-height: 24px;
   /* float: left; */
@@ -89,11 +73,23 @@
   min-height: 120px;
   padding-left: 20px;
 }
-.information h4 {
-  margin-bottom: 1em;
+.information h5 {
+  margin-bottom: 0.25em;
+}
+.information h6 {
+  margin-bottom: 0.5em;
 }
 .information h5 {
   line-height: 1.2em;
+}
+.subtitle {
+  color: #888;
+}
+.timeline ul {
+  margin-bottom: 0;
+}
+.timeline ul {
+  margin-bottom: 0;
 }
 
 /* Global Animated classes */
