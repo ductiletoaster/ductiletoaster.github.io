@@ -85,11 +85,11 @@
 .subtitle {
   color: #888;
 }
-.timeline ul {
-  margin-bottom: 0;
+.timeline p {
+  margin-bottom: 10px;
 }
 .timeline ul {
-  margin-bottom: 0;
+  margin-bottom: 10px;
 }
 
 /* Global Animated classes */
@@ -155,9 +155,6 @@
   #wrapper {
     padding: 10px 4% 60px 4%;
   }
-  #objective {
-    margin-right: auto;
-  }
 }
 
 /* Target window size of 640px and below */
@@ -183,12 +180,6 @@
   #header {
     position: relative;
     padding: 0;
-  }
-  #objective {
-    text-align: left;
-    margin: 0;
-    max-width: 100%;
-    padding: 15px 0 15px 0;
   }
   .horizontal-break,
   .horizontal-break-150 {
