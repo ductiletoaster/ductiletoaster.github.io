@@ -35,6 +35,12 @@
   padding: 30px 0 30px 0;
   text-align: center;
 }
+#me h1 {
+  text-transform: uppercase;
+}
+#me h2 {
+  text-transform: uppercase;
+}
 #resume {
   line-height: 24px;
   /* float: left; */
@@ -177,19 +183,36 @@
 }
 
 @media print {
+  #wrapper {
+    max-width: 100%;
+  }
   #header {
     position: relative;
     padding: 0;
   }
-  .horizontal-break,
-  .horizontal-break-150 {
-    margin: 0px;
+  #me h1 {
+    text-align: center;
+  }
+  #me h2 {
+    text-align: center;
+  }
+  .category {
+    width: 100px;
+  }
+  .information {
+    width: auto;
   }
   .information h4 {
-    margin-bottom: 0.8em;
+    margin-bottom: 0em;
   }
   .information h5 {
     line-height: 1em;
+  }
+  .timeline p {
+    margin-bottom: 4px;
+  }
+  .timeline ul {
+    margin-bottom: 4px;
   }
   .hide-on-print {
     display: none;
