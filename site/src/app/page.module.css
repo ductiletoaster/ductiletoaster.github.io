@@ -41,18 +41,15 @@
 #me h2 {
   text-transform: uppercase;
 }
-#resume {
+#cover, #resume {
   line-height: 24px;
-  /* float: left; */
 }
 .row {
   margin: 10px 0 0 0;
   width: 100%;
-  /* float: left; */
   display: table;
 }
 .column {
-  /* float: left; */
   display: table-cell;
 }
 .category {
