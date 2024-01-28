@@ -141,7 +141,7 @@ export default function Home() {
                 <h6 className={styles.subtitle}>
                   Core Product, Sep 2017 - Aug 2019 (2 years)
                 </h6>
-                <p>Technical Lead on Critical Projects</p>
+                <p>Technical Lead on Largescale Projects</p>
                 <ul>
                   <li>
                     Orchestrated a complete rewrite of the withdrawal flow and
