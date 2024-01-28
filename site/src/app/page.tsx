@@ -19,12 +19,12 @@ export default function Home() {
             <div className={`${styles.information} ${styles.column}`}>
               <h4>Professional Statement</h4>
               <p>
-                Experienced Staff Software Engineer & Manager specializing in
+                Experienced Staff Software Engineer and Manager specializing in
                 full-stack development with a passion for creating robust and
                 scalable applications. Over 12 years of hands-on experience in
                 designing, implementing, testing, and maintaining software
-                solutions. Thrives in collaborative environments, committed to
-                continuous learning and improvement.
+                solutions and teams. Thrives in collaborative environments,
+                committed to continuous learning and improvement.
               </p>
               <h4>Qualifications</h4>
               <ul>
