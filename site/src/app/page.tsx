@@ -16,7 +16,16 @@ export default function Home() {
       <div id={styles.content}>
         <div id={styles.cover}>
           <div className={styles.row}>
-            <div className={`${styles.category} ${styles.column}`}>
+            <div
+              className={`${styles.category} ${styles.column} ${styles["show-above-720px"]}`}
+            >
+              <h4>My Story</h4>
+            </div>
+          </div>
+          <div className={styles.row}>
+            <div
+              className={`${styles.category} ${styles.column} ${styles["hide-below-720px"]}`}
+            >
               <h4>My Story</h4>
             </div>
             <div className={`${styles.information} ${styles.column}`}>
@@ -78,7 +87,16 @@ export default function Home() {
         </div>
         <div id={styles.resume}>
           <div className={styles.row}>
-            <div className={`${styles.category} ${styles.column}`}>
+            <div
+              className={`${styles.category} ${styles.column} ${styles["show-above-720px"]}`}
+            >
+              <h4>Find Me</h4>
+            </div>
+          </div>
+          <div className={styles.row}>
+            <div
+              className={`${styles.category} ${styles.column} ${styles["hide-below-720px"]}`}
+            >
               <h4>Find Me</h4>
             </div>
             <div className={`${styles.information} ${styles.column}`}>

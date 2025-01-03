@@ -167,6 +167,18 @@
   #wrapper {
     padding: 10px 4% 60px 4%;
   }
+  .show-above-720px {
+    display: inherit;
+  }
+  .show-above-720px.column {
+    display: table-cell;
+  }
+  .show-above-720px.column::after {
+    border-right: none;
+  }
+  .hide-below-720px {
+    display: none;
+  }
 }
 
 /* Target window size of 640px and below */
