@@ -8,11 +8,13 @@ export default function Home() {
           <h1>Brian Gebel</h1>
           <h2>Senior Engineering Manager</h2>
           <br />
-          <div className={styles["horizontal-break-150"]}></div>
+          <div
+            className={`${styles["horizontal-break-150"]} ${styles["hide-on-print"]}`}
+          ></div>
         </div>
       </div>
       <div id={styles.content}>
-        <div id={styles.cover} className={styles["hide-on-print"]}>
+        <div id={styles.cover}>
           <div className={styles.row}>
             <div className={`${styles.category} ${styles.column}`}>
               <h4>My Story</h4>
