@@ -22,7 +22,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-
       <body className={sans.className}>{children}</body>
       <GoogleAnalytics gaId="UA-24988188-9" />
     </html>
