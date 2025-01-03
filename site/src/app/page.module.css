@@ -104,6 +104,10 @@
   margin-bottom: 10px;
 }
 
+.hide-above-720px {
+  display: none;
+}
+
 /* Global Animated classes */
 .fade-in {
   -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
@@ -163,7 +167,7 @@
 }
 /* http://blog.templatemonster.com/2014/10/24/bootstrap-3-grid-system-guide/ */
 /* Target window size of 720px and below */
-@media (max-width: 720px) {
+@media (max-width: 768px) {
   #wrapper {
     padding: 10px 4% 60px 4%;
   }
@@ -179,13 +183,6 @@
   .hide-below-720px {
     display: none;
   }
-}
-
-/* Target window size of 640px and below */
-@media (max-width: 640px) {
-  #wrapper {
-    padding: 10px 6% 60px 6%;
-  }
   .category {
     text-align: left;
     width: 100%;
@@ -197,6 +194,14 @@
   }
   .information {
     width: 100%;
+    padding: 10px 0;
+  }
+}
+
+/* Target window size of 640px and below */
+@media (max-width: 480px) {
+  #wrapper {
+    padding: 10px 6% 60px 6%;
   }
 }
 

@@ -17,7 +17,7 @@ export default function Home() {
         <div id={styles.cover}>
           <div className={styles.row}>
             <div
-              className={`${styles.category} ${styles.column} ${styles["show-above-720px"]}`}
+              className={`${styles.category} ${styles.column} ${styles["show-above-720px"]} ${styles["hide-above-720px"]}`}
             >
               <h4>My Story</h4>
             </div>
@@ -88,7 +88,7 @@ export default function Home() {
         <div id={styles.resume}>
           <div className={styles.row}>
             <div
-              className={`${styles.category} ${styles.column} ${styles["show-above-720px"]}`}
+              className={`${styles.category} ${styles.column} ${styles["show-above-720px"]} ${styles["hide-above-720px"]}`}
             >
               <h4>Find Me</h4>
             </div>
