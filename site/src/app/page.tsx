@@ -59,17 +59,17 @@ export default function Home() {
                 Identity, which focuses on IAM solutions, and Integrity,
                 committed to safeguarding our platform for both internal and
                 external stakeholders. Guiding these teams is not just about
-                leadership; it&apos;s about fostering an environment where innovation
-                and collaboration thrive.{" "}
+                leadership; it&apos;s about fostering an environment where
+                innovation and collaboration thrive.{" "}
               </p>
 
               <p>
-                After more than 12 years in the field, I&apos;m continually driven by
-                a passion for full-stack development and the relentless pursuit
-                of creating robust, scalable solutions. My journey from a
-                freelance designer to a Senior Manager has been marked by
-                continuous learning and adaptation, and I am committed to
-                nurturing the same growth in my teams and projects.
+                After more than 12 years in the field, I&apos;m continually
+                driven by a passion for full-stack development and the
+                relentless pursuit of creating robust, scalable solutions. My
+                journey from a freelance designer to a Senior Manager has been
+                marked by continuous learning and adaptation, and I am committed
+                to nurturing the same growth in my teams and projects.
               </p>
             </div>
           </div>
