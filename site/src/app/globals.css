@@ -6,9 +6,25 @@
   margin: 0;
   padding: 0;
 }
+
+/* 
+<uniquifier>: Use a unique and descriptive class name
+<weight>: Use a value from 300 to 800
+
+.open-sans-<uniquifier> {
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+*/
 body {
   font-size: 16px;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Open Sans", serif;
+  font-weight: 300;
+  font-style: normal;
   background-color: #fdfdfd;
 }
 pre {
@@ -17,21 +33,18 @@ pre {
   white-space: pre;
 }
 h1 {
-  font-family: "Economica", sans-serif;
-  font-size: 5.85em;
+  font-size: 4.00em;
   font-weight: 700;
   margin: 0 0 10px 0;
   padding: 0;
 }
 h2 {
-  font-family: "Economica", sans-serif;
   font-size: 1.7em;
   font-weight: 700;
   margin: 0 0 20px 0;
   padding: 0;
 }
 h3 {
-  font-family: "Economica", sans-serif;
   font-size: 1.15em;
   font-weight: 400;
   position: relative;

@@ -1,14 +1,14 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Open_Sans } from "next/font/google";
 import { GoogleAnalytics } from "@next/third-parties/google";
 
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const sans = Open_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Brian Gebel | Resume",
-  description: "Brian Gebel - Software Engineering, Manager",
+  description: "Brian Gebel - Senior Engineering Manager",
   authors: {
     url: "www.briangebel.com",
     name: "Brian Gebel",
@@ -22,7 +22,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+
+      <body className={sans.className}>{children}</body>
       <GoogleAnalytics gaId="UA-24988188-9" />
     </html>
   );
